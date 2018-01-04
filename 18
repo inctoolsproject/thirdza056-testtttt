@@ -33,9 +33,9 @@ ke.loginResult()
 #kf.login(token="Emij92Opju0A8fcbqlm4.q2JgEASRDYVoVJlY4Mo2Pa.90hf5L1m6SIPiVMbaua)
 #kf.loginResult()
 
-#kg = LINETCR.LINE()
-#kg.login(token="Em5t4Qvnp2QI04waO3H1.jt1oAwM8iM3IBVGZhNqoqq.f2i519RYvBvEUAMmSDiJb6dYJ3nO7pbX5e")
-#kg.loginResult()
+kg = LINETCR.LINE()
+kg.login(token="Em5t4Qvnp2QI04waO3H1.jt1oAwM8iM3IBVGZhNqoqq.f2i519RYvBvEUAMmSDiJb6dYJ3nO7pbX5e")
+kg.loginResult()
 
 #kh = LINETCR.LINE()
 #kh.login(token="Em5GXmOBnYaXRnMPZwX6.0BpK2oZ8lcbH2IkMPRYmjG.Twu52EmfrMXchKaLFQQNdkbTLy9)
