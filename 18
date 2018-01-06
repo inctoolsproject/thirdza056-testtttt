@@ -191,7 +191,9 @@ https://line.me/R/ti/p/%40uvh1233u
 ──────┅═ই۝ई═┅──────   
      ☆ Ķ͈̤̱͎̱̤̞̭͂̐͒́̀͗͞Ị̵̻̝̘͍͛̏̃͊̉͠ T̩͖͎̹̫͈̿̆̏́̑́S̤̲̯̤̹̲̲̘̏̋̈́̿͒ͅŲ̶̼̲̺̣̬̔̿͐̾̾͘Ṇ̶̨̛̲̭̝̲̝̪̎̾̈́͘͢͜͞É͎̱̺̜̐̀̿͘̕̕͢  B̴̡̛͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠O̸̡̩̣̲̣̜̊̑̾̾͊̃͘͜ͅT Ç̵͔̟̫̰̮̺̟̥̂̋̂͋͐͛͑̔̚̚O̷̧̺̠̰̳̿́͆̕̕͠ͅ N̶͖̜̻̰͍̮̼̒́̐̑͒́̕ͅŢ̢̯̱͕̠͙̤̙̄̂͗̊̈́̕R̶̛̙̩̱̗̯͌̈͆̆Ơ̴̡͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠L̸̡̩̣̲̣̜̊̑̾̾͊̃͘͜ͅ  ☆
 """
-helpMessage2 ="""╔════════════════╗
+helpMessage2 ="""╔══════════════════╗
+║•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•
+╠══════════════════╝
 ║[Massage add: "text"]:
 ║[Add confirmasi]:
 ║[Comment set : "Text"]:
@@ -201,28 +203,28 @@ helpMessage2 ="""╔════════════════╗
 ║[Ban]: "Add blacklist"
 ║[Unban]: "Dalate blacklist"
 ║[Banlist]: "Check blacklist"
-╠════════════╗
-║〚C͓̳͓O͓̳͓M͓̳͓M͓̳͓A͓̳͓N͓̳͓D͓̳͓ ͓S͓̳͓E͓̳͓T͓̳͓〛
-╠════════════╝
-║[Contact: on/off]: 
-║[Auto join: on/off]: 
-║[Auto join: on/off]: 
-║[Cancel Invite: 1 on/off]:
-║[Auto share: on/off]:
-║[Auto leave: on/off]: 
-║[Comment: on/off]: 
-║[Auto add: on/off]: 
-║[Auto like: on/off]: 
-╠══════════════╗	
-║⟦ϲ̳̳̋ο̳̳̋м̳̳̋м̳̳̋α̳̳̋и̳̳̋∂̳̳̋ ̳̳̋ι̳̳̋и̳̳̋ ̳̳̋g̳̳̋я̳̳̋ο̳̳̋υ̳̳̋ρ̳̳̋⟧
-╠══════════════╝
-║[Ban " @Tag]: 
-║[Unban " @Tag]: 
+╠══════════════════╗
+║         〚C͓̳͓O͓̳͓M͓̳͓M͓̳͓A͓̳͓N͓̳͓D͓̳͓ ͓S͓̳͓E͓̳͓T͓̳͓〛
+╠══════════════════╝
+║[Contact: on/off]
+║[Auto join: on/off]
+║[Auto join: on/off]
+║[Cancel Invite: 1 on/off]
+║[Auto share: on/off]
+║[Auto leave: on/off]
+║[Comment: on/off]
+║[Auto add: on/off]
+║[Auto like: on/off]
+╠══════════════════╗
+║        ⟦ϲ̳̳̋ο̳̳̋м̳̳̋м̳̳̋α̳̳̋и̳̳̋∂̳̳̋ ̳̳̋ι̳̳̋и̳̳̋ ̳̳̋g̳̳̋я̳̳̋ο̳̳̋υ̳̳̋ρ̳̳̋⟧
+╠══════════════════╝
+║[Ban " @Tag]:
+║[Unban " @Tag]:
 ║[Urlon]: "Open urL"
 ║[Urloff]: "Closed urL"
 ║[Url]: " Check urL room"
 ║[Ginfo]: "~÷~ data room"
-║[Invite: "mid"]: 
+║[Invite: "mid"]:
 ║[Say: "Text"]: "Kicker talk"
 ║[Cancel]: "Cancel invite"
 ║[Gns: "name"]:"Change Gname"
@@ -231,11 +233,8 @@ helpMessage2 ="""╔════════════════╗
 ║[Protect: on/off]:
 ║[Block url: on/off]:
 ║[Namelock: on/off]:
-║[Blockinvite: on/off]: 
-╠═══════════════════╝
-║
-║ [By.❦〖Pђëŧ〗☞ᵀËÄMທஇລ❂قB❂T✓]
-╚═══════════════════════════╝
+║[Blockinvite: on/off]:
+╚══════════════════╝
 """
 
 KAC=[cl,ki,kk,kc,kd,ke,kf,kg,kh,kj,kl,km,kn,ko,kp,kq,kr,ks,kt]
@@ -356,83 +355,83 @@ backup.displayName = contact.displayName
 backup.statusMessage = contact.statusMessage
 backup.pictureStatus = contact.pictureStatus
 
-#contact = kf.getProfile()
-#backup = kf.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = kf.getProfile()
+backup = kf.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
-#contact = kg.getProfile()
-#backup = kg.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = kg.getProfile()
+backup = kg.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
-#contact = kh.getProfile()
-#backup = kh.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = kh.getProfile()
+backup = kh.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
-#contact = kj.getProfile()
-#backup = kj.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = kj.getProfile()
+backup = kj.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
-#contact = kl.getProfile()
-#backup = kl.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = kl.getProfile()
+backup = kl.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
-#contact = km.getProfile()
-#backup = km.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = km.getProfile()
+backup = km.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
-#contact = kn.getProfile()
-#backup = kn.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = kn.getProfile()
+backup = kn.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
-#contact = ko.getProfile()
-#backup = ko.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = ko.getProfile()
+backup = ko.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
-#contact = kp.getProfile()
-#backup = kp.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = kp.getProfile()
+backup = kp.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
-#contact = kq.getProfile()
-#backup = kq.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = kq.getProfile()
+backup = kq.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
-#contact = kr.getProfile()
-#backup = kr.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = kr.getProfile()
+backup = kr.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
-#contact = ks.getProfile()
-#backup = ks.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = ks.getProfile()
+backup = ks.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
-#contact = kt.getProfile()
-#backup = kt.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = kt.getProfile()
+backup = kt.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
 def cms(string, commands): #/XXX, >XXX, ;XXX, ^XXX, %XXX, $XXX...
     tex = ["+","@","/",">",";","^","%","$","＾","サテラ:","サテラ:","サテラ：","サテラ："]
