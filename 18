@@ -6,76 +6,79 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,requests,urllib
 #import time,random,sys,json,codecs,threading,glob,re
 cl = LINETCR.LINE()
-cl.login(token="EnVHxipysDsZE831zTJ3.JIryx4z3ry1IZHDp9TRmGW.Znb8NznzA10FqcopHyRn2KYYxk0h8uldpANSaW0mHxU=")
+cl.login(token="EoVO89FK9jZ25tALzFL5.0KR2p9yTfmo+J3gD/aW3rq.7sJOgr7wF6fdLxpwvfCh7Im8D6XzrirHdC6t0iQwGG8=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="EnFDvljD0PPwltBNaAe3.N/6o2oDgZge0ng439NllSW.hRi4FPb7gmrioijAX8P0J5lZtvodAItTfqYm4SF9Y6w=")
+ki.login(token="Eo1niLhJ6Q1xmXbhQGZc.HoR1JnsB+4qeb6VJ+e21Na.YtiAcKskFQ76877rgqIQxeF/lQv3a0FhgUHmX1vMoqk=")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(token="EnXrzWBJGxIgThiY7xu9.sEpoFLrSynl1O4R/jK+r6q.JaX5yRVbzwmHWDrMz+Bpbq8/iv3HsB6KdpCHCIl5opI=")
+kk.login(token="EoiSakst6a8257VcXbe1.0yBG21qsxOytdiizPZNOOq.JlVNzkuNXDOHG4rb+UGj6WjLDtJ43ZvV2usCte/kFKY=")
 kk.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(token="EneTlHgwnbnOU0RJxrq0.Yqmbk3y5dGImDYSHbIO7ia.ZvCvJv4LMvnRqP4AC/Dqd0/vkjYv2AzKKPAL07kE8Ls=")
+kc.login(token="EoMYKLtAnYUEYH5fuLUa.TvetDTQOiFfoCjE8lx6qQG.avNTzEQ3Q2j8HgBzupma3evR/hsaHkdsTWF+p/sm2Jo=")
 kc.loginResult()
 
 kd = LINETCR.LINE()
-kd.login(token="EnGPHMqCrmjVpuk5yQ60.qTqJ/tcbW+c9xovbLqJnya.FmP2964ts4hedqetdFHLA7hBGWah1YcnowrSXhmCes0=")
+kd.login(token="EoSDTOj5yoCm51OEAmu3.k4Za5/UEgS3xASuSVtbn4W.tU4Xs/IdzSc0hSEGiaAMvHg0bZJ3to3AoK82D5AbL1w=")
 kd.loginResult()
 
 ke = LINETCR.LINE()
-ke.login(token="EnNpjs7s95HaE72QFxAb.brg8qqR4cXfYLtnKj4/hgW.qTsu8zg3xYkC2QbHouXd4IVt9/LxZ+2ykDiUPlM7WTU=")
+ke.login(token="EogzBa3UsPCY15W391na.s/dq/M0GLZkiMLYg3XHlcG.1YuGhYjbT5h6n/Ah5I+c3qiQLREWgGpvq34E/tElDhI=")
 ke.loginResult()
 
-#kf = LINETCR.LINE()
-#kf.login(token="Emij92Opju0A8fcbqlm4.q2JgEASRDYVoVJlY4Mo2Pa.90hf5L1m6SIPiVMbaua)
-#kf.loginResult()
+kf = LINETCR.LINE()
+kf.login(token="EoKoyglJ9czSRvqLI4Y8.fKk7jKzQ5mzh1YnPidc0ga.geEVnKpgki6bS1vAtUA80jU7385bE0CXZ8Lecyskvss=")
+kf.loginResult()
 
-#kg = LINETCR.LINE()
-#kg.login(token="Em5t4Qvnp2QI04waO3H1.jt1oAwM8iM3IBVGZhNqoqq.f2i519RYvBvEUAMmSDiJb6dYJ3nO7pbX5e")
-#kg.loginResult()
+kg = LINETCR.LINE()
+kg.login(token="EojjldTdtw90MHXZja42.GEJaLf18HIrlmEJ3dKxw4G.HQngGBiARg824aAAceT5se/hpDb8zrI/FtL2qKX/FDc=")
+kg.loginResult()
 
-#kh = LINETCR.LINE()
-#kh.login(token="Em5GXmOBnYaXRnMPZwX6.0BpK2oZ8lcbH2IkMPRYmjG.Twu52EmfrMXchKaLFQQNdkbTLy9)
-#kh.loginResult()
+kh = LINETCR.LINE()
+kh.login(token="EoYXQMokK7oFR87rVVWb.R+TwP1t4enhkFeLLHqn0sW.A2qWv+eQyczoyi2gpEdizFp7bAvfTij0DQPXMDnMsis=")
+kh.loginResult()
 
-#kj = LINETCR.LINE()
-#kj.login(token="EmFheViE6bJieDOGnnqf.7dmJj7Pl3NYc9mQ0bmv9lW.pIGYFbTXE/1lUj+p86MWBBtIyWDbacFu78VQxH)
-#kj.loginResult()
+kj = LINETCR.LINE()
+kj.login(token="EoTKTnZyyCj0ohpXqqh8.PHu9Jj2QfTEzOzCw7q5q/a.EcLJcYV+s8J9C+t7buGo4oWK4jG+1XXnysfDPOYC808=")
+kj.loginResult()
 
-#kl = LINETCR.LINE()
-#kl.login(token="EmZIg1lDmOYH949Rleec.1eIE4tCE1Xqdg7QPWuMPVa.HmOVfbbTn7nX4EW7pZQvDZpLTcjGuV45f/4Bk)
-#kl.loginResult()
+kl = LINETCR.LINE()
+kl.login(token="EoDK9oblGyVxk9W9rOL9.SToq+Adh7am3maMPFEVM/q.DeXZbr9ZD0AzG9XaZj+s9vtKnudtdl+CZHrqlJI7pJM=")
+kl.loginResult()
 
-#km = LINETCR.LINE()
-#km.login(token="Em74tzXHsIM42LE0rhH8.H/2+dXDF6mXvxwjFFKFrsa.Z2JMGYOrrIfcV0woXziwkzmgdBDdfKqdg/z5)
-#km.loginResult()
+km = LINETCR.LINE()
+km.login(token="EotgXquzDRP9pJpXZDS6.AEksypRHUUmnTL3iWKWpfG.BwWfzSCJeSjambuszXEC74+T8q7tfNlouj4OO8Pa2BQ=")
+km.loginResult()
 
-#kn = LINETCR.LINE()
-#kn.login(token="EmHmcfpTKmJFpYoC4Htf.X84wLwnCQjJbsPF0Ghq1dW.bprZcr45aNGe2nOaW8Z47Yw9EzrOnJC70zq3go)
-#kn.loginResult()
+kn = LINETCR.LINE()
+kn.login(token="Eo2yQ1EQk9hsXMlCQus8.1vrheGCJ1zMYVolwEXtRca.QLv7WOGH/apBsfoETRrfsMQ0WtagfxaUJpKliIky6Zw=")
+kn.loginResult()
 
-#ko = LINETCR.LINE()
-#ko.login(token="EmoQHRSpSbfnD7vacBr4.dT3xRe4uCjM6Vzg7k5eETa.DEUe9kBAv+SdKGb1yi42OpyVGd4iIMYVr830)
-#ko.loginResult()
+ko = LINETCR.LINE()
+ko.login(token="EotkuhJZmnLTowCsfYt5.tPDsUdJZXvKPQOUc44Txrq.ckFssNQRmr8sQvm+MOkMFdE1ZUYIrSXGm+9XOgU+jnU=")
+ko.loginResult()                                                                                                                                                                                                        kp = LINETCR.LINE()                                                                                         kp.login(token="Eo2KwrGlPGwsYTqRXdX4.h3P92CCPLrvuZl+/sjgTHa.Ar9v/y0Kc2ZhNN6TWn7nLuBlPHXtA+bSd0xviSk/1yk=")
+kp.loginResult()
 
-#kp = LINETCR.LINE()
-#kp.login(token="EmY8h36sYp8BzU6Icfh6.JdC4ALO58MA6pnJuI1CFzG.j7akOD4/Tmc20VlSpIwGmK2y7kUhbG9DEdKk)
-#kp.loginResult()
+kq = LINETCR.LINE()
+kq.login(token="EoJNB5Njj2tqJrVXwqJ6.UsifYkGV9oHJUs/icfEbvG.DbEYdNAcItCw5nPDwDZKWBmmzzc87MWm8+GJREO75tE=")
+kq.loginResult()
 
-#kq = LINETCR.LINE()
-#kq.login(token="EmbhD4BxvTwdkVFsFhb5.T6aQj64lnmQ+piddBWaZzq.5pVyPq9iNl7ncTZlynv/kOL2Q484vhTH3akP)
-#kq.loginResult()
+kr = LINETCR.LINE()
+kr.login(token="EozJOz2xjZmTsYtABTrd.xwjlUdZUsHbPU14aiaJY3q.H2Hg4alvCo/wl92DNc+5N2Q6HrelPStRnfdmA20cV54=")
+kr.loginResult()
 
-#kr = LINETCR.LINE()
-#kr.login(token="Em1pldxYFW1KLLG1NfH1.7xu87tgEhnTXf8s1fWeH4q.hU6PsL1On8Dh+gT6pUmf/5X6c2lnaNiFiRA0V)
-#kr.loginResult()
+ks = LINETCR.LINE()
+ks.login(token="Eor9EzzAHvRl4foGDJ0e.ct061DsLt4s5sWUBOf6RtG.xQ5dMtBE5j0GMJsPvNBlq+iZZiYq1yPaIHXChbSxAXI=")
+ks.loginResult()
 
-#ks = LINETCR.LINE()
-#ks.login(token="Em5CpuXREc9uw9FsZTD8.0SD7v1JpFHS4lNELlxT2wa.cFVfqAc6EJYdGB4hiqy8Q9Z+Cc7p8GANGKU)
-#ks.loginResult()
+kt = LINETCR.LINE()
+kt.login(token="EoldiwO8HSZl2viZXQE6.NSHJdVAVNV3B+BOz/wobHG.OVHcbkFYf7NThwLsuZHOOehixeDleHq+VpuRmv7IJ2g=")
+kt.loginResult()
+
+cl
 
 #kt = LINETCR.LINE()
 #kt.login(token="EmRMSp9YRsRZEgnvrdW8.XjzOOkSRnvOPOjv8Ex6E6a.YnZQ3FtR6E62qfVLEZUF34hxraDKTWDFNun)
@@ -83,18 +86,20 @@ ke.loginResult()
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
-helpMessage =""" ====[Self Bots PHET HECK BOT]====
-
-              ༺•㏒ ᴳᵘ ᵀᵃʳ ᴾʰᵉᵗ ㏒•༻
-
+helpMessage ="""──────┅═ই۝ई═┅──────
+             ✯✯❇Thailand❇✯✯
+      ✯❇͜͡C͜͡r͜͡e͜͡a͜͡t͜͡o͜͡r✯͜͡$͜͡ë͜͡I͜͡F͜͡-͜͡฿͜͡o͜͡Ŧ❇✯
+http://line.me/ti/p/~1ove..neverdie
+──────┅═ই۝ई═┅────── 
 ❂͜͡☆➣ Me
 ❂͜͡☆➣ Id
 ❂͜͡☆➣ Mid
-❂͜͡☆➣ Gift
 ❂͜͡☆➣ Mid @
+❂͜͡☆➣ Gift
+❂͜͡☆➣ Gift you @
 ❂͜͡☆➣ Cn: Display Name
 ❂͜͡☆➣ Cc: Clock Name
-❂͜͡☆➣ Mc:
+❂͜͡☆➣ Mc: Contact
 ❂͜͡☆➣ Tl: text
 ❂͜͡☆➣ Auto join: on/off
 ❂͜͡☆➣ Auto add: on/off
@@ -107,34 +112,44 @@ helpMessage =""" ====[Self Bots PHET HECK BOT]====
 ❂͜͡☆➣ Comment: 
 ❂͜͡☆➣ Cbroadcast text
 ❂͜͡☆➣ Gbroadcast text
-❂͜͡☆➣ Reject
+❂͜͡☆➣ Reject / ลบรัน
 
-       ༺•㏒ Instruction Room ㏒•༻
-
+[C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ̶̲̅ ̶̲̅ɪ̶̲̅ɴ̶̲̅ ̶̲̅G̶̲̅ʀ̶̲̅ᴏ̶̲̅ᴜ̶̲̅ᴘ̶̲̅] 
 ❂͜͡☆➣ Creator
 ❂͜͡☆➣ Gn: text
 ❂͜͡☆➣ Invite: mid
-❂͜͡☆➣ Invite:on Send contact
+❂͜͡☆➣ Ambilin @ Steal dp
+❂͜͡☆➣ Sampul @ Steal cover
+❂͜͡☆➣ Copy @ All bot copy
+❂͜͡☆➣ Mycopy @ Copy profile
+❂͜͡☆➣ Botbb  บอทกลับร่างเดิม
+❂͜͡☆➣ Mebb แอดมินกลับร่าง
+❂͜͡☆➣ Keluar @ target
+❂͜͡☆➣ Hack @mid contact
+❂͜͡☆➣ Hack1 @
+❂͜͡☆➣ Hack2 @ Steal picS
+❂͜͡☆➣ Hack3 @ Steal coveR
+❂͜͡☆➣ Hack4 @ Steal statuS
 ❂͜͡☆➣ Mybot
 ❂͜͡☆➣ Allgift 
 ❂͜͡☆➣ All mid
 ❂͜͡☆➣ Cancel
 ❂͜͡☆➣ Link on/off
-❂͜͡☆➣ ginfo
+❂͜͡☆➣ ginfo / กลุ่ม
 ❂͜͡☆➣ Gurl
 ❂͜͡☆➣ Glist
-❂͜͡☆➣ Sett
+❂͜͡☆➣ Sett / Set
 ❂͜͡☆➣ Gcancel: number
 ❂͜͡☆➣ Masuk / Join
 ❂͜͡☆➣ Sayang
 ❂͜͡☆➣ Beb
 ❂͜͡☆➣ Cinta
-❂͜͡☆➣ Sayang pulang
 ❂͜͡☆➣ Pulang
 ❂͜͡☆➣ Ban @ target
 ❂͜͡☆➣ Uban @ target
 ❂͜͡☆➣ Ban -> send contact
 ❂͜͡☆➣ Unban -> send contact
+❂͜͡☆➣ Invite:on Send contact
 ❂͜͡☆➣ Comment bl/wl
 ❂͜͡☆➣ Banlist
 ❂͜͡☆➣ Cekban
@@ -142,18 +157,13 @@ helpMessage =""" ====[Self Bots PHET HECK BOT]====
 ❂͜͡☆➣ Kill
 ❂͜͡☆➣ Kill ban
 ❂͜͡☆➣ Speed
-❂͜͡☆➣ Ambilin @ Steal dp target
-❂͜͡☆➣ Sampul @ Steal cover target
-❂͜͡☆➣ Copy @ All bot copy target
-❂͜͡☆➣ Mycopy @ Copy target profile
-❂͜͡☆➣ Keluar @ target
 ❂͜͡☆➣ music
 ❂͜͡☆➣ .reboot
 ❂͜͡☆➣ Wikipedia
 ❂͜͡☆➣ Cleanse
 ❂͜͡☆➣ Pbot
 ❂͜͡☆➣ Pcancel
-❂͜͡☆➣ P1-P18 Contact Bot
+❂͜͡☆➣ P1-P18 คท. Bot
 ❂͜͡☆➣ P1-P2 tl:
 ❂͜͡☆➣ P1-P2 say
 ❂͜͡☆➣ P1-P2 tag
@@ -161,45 +171,27 @@ helpMessage =""" ====[Self Bots PHET HECK BOT]====
 ❂͜͡☆➣ P1-P3 mid
 ❂͜͡☆➣ P1-P2 gurl
 ❂͜͡☆➣ P1-P5 gift
-❂͜͡☆➣ P1-P18 rename:
-❂͜͡☆➣ All: rename all:
-❂͜͡☆➣ Allbio: Isi bio:
-❂͜͡☆➣ P1-P18 rgroup
 ❂͜͡☆➣ P1-P5 join
 ❂͜͡☆➣ P1-P5 bye
 ❂͜͡☆➣ P1-P5 link on/off
-
-     ༺•㏒ COMMAND Protect ㏒•༻
-
+❂͜͡☆➣ P1-P18 rgroup
+❂͜͡☆➣ P1-P18 rename:
+❂͜͡☆➣ All: rename all:
+❂͜͡☆➣ Allbio: Isi bio:
+❂͜͡☆➣ Gu bye  / Bye
+❂͜͡☆➣ Kicker / มาหำ
 ❂͜͡☆➣ Qr on/off
 ❂͜͡☆➣ Backup on/off
 ❂͜͡☆➣ Protect On/off
 ❂͜͡☆➣ Namelock On/off
-
-        
-  
+──────┅═ই۝ई═┅──────
+        နับთิஏთั้ଏบਹທ Sirichan V⒑
+สนใจติดต่อที่.. •─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•
+https://line.me/R/ti/p/%40uvh1233u
+──────┅═ই۝ई═┅──────   
      ☆ Ķ͈̤̱͎̱̤̞̭͂̐͒́̀͗͞Ị̵̻̝̘͍͛̏̃͊̉͠ T̩͖͎̹̫͈̿̆̏́̑́S̤̲̯̤̹̲̲̘̏̋̈́̿͒ͅŲ̶̼̲̺̣̬̔̿͐̾̾͘Ṇ̶̨̛̲̭̝̲̝̪̎̾̈́͘͢͜͞É͎̱̺̜̐̀̿͘̕̕͢  B̴̡̛͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠O̸̡̩̣̲̣̜̊̑̾̾͊̃͘͜ͅT Ç̵͔̟̫̰̮̺̟̥̂̋̂͋͐͛͑̔̚̚O̷̧̺̠̰̳̿́͆̕̕͠ͅ N̶͖̜̻̰͍̮̼̒́̐̑͒́̕ͅŢ̢̯̱͕̠͙̤̙̄̂͗̊̈́̕R̶̛̙̩̱̗̯͌̈͆̆Ơ̴̡͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠L̸̡̩̣̲̣̜̊̑̾̾͊̃͘͜ͅ  ☆
-
-
-[By.❦〖Pђëŧ〗☞ᵀËÄMທஇລ❂قB❂T✓]
-
 """
 helpMessage2 ="""╔════════════════╗
-║〘ᏢᏌᏴᏞᏆᏟ ᏟᎾᎷᎷᎪNᎠ〙
-╠════════════════╣
-║                〘ᏆᎠ〙
-║              〘ᎷᏆᎠ〙  
-║             〘ᎪᏞᏞ ᎷᏆᎠ〙
-║                〘ᎷᎬ〙
-║             〘ᴊᎾᏆN ᎪᏞᏞ〙
-║           〘ᏌᏚᏆᎡ 1/2/3/4〙
-║             〘ᏩᎡᎾᏌᏢ ᏆᎠ〙
-║              〘ᎢᏞ : "+"〙
-║              〘ᏟᏞᎾᏟK :〙
-║             〘ᏌᏢ ᏟᏞᎾᏟK〙
-║             〘NᎪᎷᎬ : + 〙
-║             〘ᎷᏆᏟ〙"ᎷᏆᎠ" 〙
-║  〘ᎡᎬᏓᎬᏟᎢ〙"ᏆNᏙᏆᎢᎬ" 〙
 ║[Massage add: "text"]:
 ║[Add confirmasi]:
 ║[Comment set : "Text"]:
@@ -246,26 +238,26 @@ helpMessage2 ="""╔════════════════╗
 ╚═══════════════════════════╝
 """
 
-KAC=[cl,ki,kk,kc,kd,ke]
+KAC=[cl,ki,kk,kc,kd,ke,kf,kg,kh,kj,kl,km,kn,ko,kp,kq,kr,ks,kt]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
 Dmid = kd.getProfile().mid
 Emid = ke.getProfile().mid
-#Fmid = kf.getProfile().mid
-#Gmid = kg.getProfile().mid
-#Hmid = kh.getProfile().mid
-#Jmid = kj.getProfile().mid
-#Lmid = kl.getProfile().mid
-#Mmid = km.getProfile().mid
-#Nmid = kn.getProfile().mid
-#Omid = ko.getProfile().mid
-#Pmid = kp.getProfile().mid
-#Qmid = kq.getProfile().mid
-#Rmid = kr.getProfile().mid
-#Smid = ks.getProfile().mid
-#Tmid = kt.getProfile().mid
+Fmid = kf.getProfile().mid
+Gmid = kg.getProfile().mid
+Hmid = kh.getProfile().mid
+Jmid = kj.getProfile().mid
+Lmid = kl.getProfile().mid
+Mmid = km.getProfile().mid
+Nmid = kn.getProfile().mid
+Omid = ko.getProfile().mid
+Pmid = kp.getProfile().mid
+Qmid = kq.getProfile().mid
+Rmid = kr.getProfile().mid
+Smid = ks.getProfile().mid
+Tmid = kt.getProfile().mid
 protectname = []
 protecturl = []
 protection = []
@@ -273,12 +265,12 @@ autocancel = {}
 autoinvite = []
 autoleaveroom = []
 targets = []
-Bots = ["u8e24585f8677458d62ce174ff6dacc83",mid,Amid,Bmid,Cmid,Dmid,Emid]
-self = ["u8e24585f8677458d62ce174ff6dacc83",mid,Amid,Bmid,Cmid,Dmid,Emid]
-admin = "u8e24585f8677458d62ce174ff6dacc83"
-owner = "u8e24585f8677458d62ce174ff6dacc83"
-admsa = "u8e24585f8677458d62ce174ff6dacc83"
-adminMID = "u8e24585f8677458d62ce174ff6dacc83"
+Bots = ["ud24af63fd62d14c3bf8f719df80c3745",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
+self = ["ud24af63fd62d14c3bf8f719df80c3745",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
+admin = "ud24af63fd62d14c3bf8f719df80c3745"
+owner = "ud24af63fd62d14c3bf8f719df80c3745"
+admsa = "ud24af63fd62d14c3bf8f719df80c3745"
+adminMID = "ud24af63fd62d14c3bf8f719df80c3745"
 wait = {
     'contact':False,
     'autoJoin':False,
