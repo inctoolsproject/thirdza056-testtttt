@@ -59,7 +59,10 @@ kn.loginResult()
 
 ko = LINETCR.LINE()
 ko.login(token="EotkuhJZmnLTowCsfYt5.tPDsUdJZXvKPQOUc44Txrq.ckFssNQRmr8sQvm+MOkMFdE1ZUYIrSXGm+9XOgU+jnU=")
-ko.loginResult()                                                                                                                                                                                                        kp = LINETCR.LINE()                                                                                         kp.login(token="Eo2KwrGlPGwsYTqRXdX4.h3P92CCPLrvuZl+/sjgTHa.Ar9v/y0Kc2ZhNN6TWn7nLuBlPHXtA+bSd0xviSk/1yk=")
+ko.loginResult()
+
+kp = LINETCR.LINE()
+kp.login(token="Eo2KwrGlPGwsYTqRXdX4.h3P92CCPLrvuZl+/sjgTHa.Ar9v/y0Kc2ZhNN6TWn7nLuBlPHXtA+bSd0xviSk/1yk=")
 kp.loginResult()
 
 kq = LINETCR.LINE()
@@ -80,9 +83,6 @@ kt.loginResult()
 
 cl
 
-#kt = LINETCR.LINE()
-#kt.login(token="EmRMSp9YRsRZEgnvrdW8.XjzOOkSRnvOPOjv8Ex6E6a.YnZQ3FtR6E62qfVLEZUF34hxraDKTWDFNun)
-#kt.loginResult()
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -115,8 +115,8 @@ http://line.me/ti/p/~1ove..neverdie
 ❂͜͡☆➣ Reject / ลบรัน
 
 [C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ̶̲̅ ̶̲̅ɪ̶̲̅ɴ̶̲̅ ̶̲̅G̶̲̅ʀ̶̲̅ᴏ̶̲̅ᴜ̶̲̅ᴘ̶̲̅] 
-❂͜͡☆➣ Creator
-❂͜͡☆➣ Gn: text
+❂͜͡☆➣ Creator / Admins
+❂͜͡☆➣ Gn: text name group
 ❂͜͡☆➣ Invite: mid
 ❂͜͡☆➣ Ambilin @ Steal dp
 ❂͜͡☆➣ Sampul @ Steal cover
@@ -125,20 +125,21 @@ http://line.me/ti/p/~1ove..neverdie
 ❂͜͡☆➣ Botbb  บอทกลับร่างเดิม
 ❂͜͡☆➣ Mebb แอดมินกลับร่าง
 ❂͜͡☆➣ Keluar @ target
-❂͜͡☆➣ Hack @mid contact
+❂͜͡☆➣ Hack @ mid contact
 ❂͜͡☆➣ Hack1 @
+❂͜͡☆➣ Hack All @
 ❂͜͡☆➣ Hack2 @ Steal picS
 ❂͜͡☆➣ Hack3 @ Steal coveR
 ❂͜͡☆➣ Hack4 @ Steal statuS
-❂͜͡☆➣ Mybot
-❂͜͡☆➣ Allgift 
-❂͜͡☆➣ All mid
-❂͜͡☆➣ Cancel
+❂͜͡☆➣ Mybot contactbot
+❂͜͡☆➣ Allgift Gift All
+❂͜͡☆➣ All mid / Bot mid
+❂͜͡☆➣ Cancel / ยกเลิก ค้างเชิญ
 ❂͜͡☆➣ Link on/off
-❂͜͡☆➣ ginfo / กลุ่ม
-❂͜͡☆➣ Gurl
+❂͜͡☆➣ Ginfo / ginfo / กลุ่ม
+❂͜͡☆➣ Gurl / Up Qr group
 ❂͜͡☆➣ Glist
-❂͜͡☆➣ Sett / Set
+❂͜͡☆➣ Setting / Set / Man set
 ❂͜͡☆➣ Gcancel: number
 ❂͜͡☆➣ Masuk / Join
 ❂͜͡☆➣ Sayang
@@ -152,18 +153,18 @@ http://line.me/ti/p/~1ove..neverdie
 ❂͜͡☆➣ Invite:on Send contact
 ❂͜͡☆➣ Comment bl/wl
 ❂͜͡☆➣ Banlist
-❂͜͡☆➣ Cekban
-❂͜͡☆➣ Clear ban
-❂͜͡☆➣ Kill
-❂͜͡☆➣ Kill ban
-❂͜͡☆➣ Speed
-❂͜͡☆➣ music
+❂͜͡☆➣ Cekban / Conban
+❂͜͡☆➣ Clear ban / Cb / ล้างดำ
+❂͜͡☆➣ Kill เตะดำ
+❂͜͡☆➣ Kill ban เตะบัญชีดำ
+❂͜͡☆➣ Speed / !Sp / Sp
+❂͜͡☆➣ music 
 ❂͜͡☆➣ .reboot
 ❂͜͡☆➣ Wikipedia
 ❂͜͡☆➣ Cleanse
 ❂͜͡☆➣ Pbot
 ❂͜͡☆➣ Pcancel
-❂͜͡☆➣ P1-P18 คท. Bot
+❂͜͡☆➣ Man1-Man18 คท. Bot
 ❂͜͡☆➣ P1-P2 tl:
 ❂͜͡☆➣ P1-P2 say
 ❂͜͡☆➣ P1-P2 tag
@@ -178,12 +179,13 @@ http://line.me/ti/p/~1ove..neverdie
 ❂͜͡☆➣ P1-P18 rename:
 ❂͜͡☆➣ All: rename all:
 ❂͜͡☆➣ Allbio: Isi bio:
-❂͜͡☆➣ Gu bye  / Bye
+❂͜͡☆➣ Gu bye / Bye / #bye
 ❂͜͡☆➣ Kicker / มาหำ
 ❂͜͡☆➣ Qr on/off
 ❂͜͡☆➣ Backup on/off
 ❂͜͡☆➣ Protect On/off
 ❂͜͡☆➣ Namelock On/off
+Help Help2 Hp2 Man set Set protect
 ──────┅═ই۝ई═┅──────
         နับთิஏთั้ଏบਹທ Sirichan V⒑
 สนใจติดต่อที่.. •─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•
@@ -191,9 +193,9 @@ https://line.me/R/ti/p/%40uvh1233u
 ──────┅═ই۝ई═┅──────   
      ☆ Ķ͈̤̱͎̱̤̞̭͂̐͒́̀͗͞Ị̵̻̝̘͍͛̏̃͊̉͠ T̩͖͎̹̫͈̿̆̏́̑́S̤̲̯̤̹̲̲̘̏̋̈́̿͒ͅŲ̶̼̲̺̣̬̔̿͐̾̾͘Ṇ̶̨̛̲̭̝̲̝̪̎̾̈́͘͢͜͞É͎̱̺̜̐̀̿͘̕̕͢  B̴̡̛͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠O̸̡̩̣̲̣̜̊̑̾̾͊̃͘͜ͅT Ç̵͔̟̫̰̮̺̟̥̂̋̂͋͐͛͑̔̚̚O̷̧̺̠̰̳̿́͆̕̕͠ͅ N̶͖̜̻̰͍̮̼̒́̐̑͒́̕ͅŢ̢̯̱͕̠͙̤̙̄̂͗̊̈́̕R̶̛̙̩̱̗̯͌̈͆̆Ơ̴̡͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠L̸̡̩̣̲̣̜̊̑̾̾͊̃͘͜ͅ  ☆
 """
-helpMessage2 ="""╔══════════════════╗
+helpMessage2 ="""╔═════════════════════╗
 ║•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•
-╠══════════════════╝
+╠═════════════════════╝
 ║[Massage add: "text"]:
 ║[Add confirmasi]:
 ║[Comment set : "Text"]:
@@ -203,9 +205,9 @@ helpMessage2 ="""╔══════════════════╗
 ║[Ban]: "Add blacklist"
 ║[Unban]: "Dalate blacklist"
 ║[Banlist]: "Check blacklist"
-╠══════════════════╗
+╠═════════════════════╗
 ║         〚C͓̳͓O͓̳͓M͓̳͓M͓̳͓A͓̳͓N͓̳͓D͓̳͓ ͓S͓̳͓E͓̳͓T͓̳͓〛
-╠══════════════════╝
+╠═════════════════════╝
 ║[Contact: on/off]
 ║[Auto join: on/off]
 ║[Auto join: on/off]
@@ -215,9 +217,9 @@ helpMessage2 ="""╔══════════════════╗
 ║[Comment: on/off]
 ║[Auto add: on/off]
 ║[Auto like: on/off]
-╠══════════════════╗
-║        ⟦ϲ̳̳̋ο̳̳̋м̳̳̋м̳̳̋α̳̳̋и̳̳̋∂̳̳̋ ̳̳̋ι̳̳̋и̳̳̋ ̳̳̋g̳̳̋я̳̳̋ο̳̳̋υ̳̳̋ρ̳̳̋⟧
-╠══════════════════╝
+╠═════════════════════╗
+║       ⟦ϲ̳̳̋ο̳̳̋м̳̳̋м̳̳̋α̳̳̋и̳̳̋∂̳̳̋ ̳̳̋ι̳̳̋и̳̳̋ ̳̳̋g̳̳̋я̳̳̋ο̳̳̋υ̳̳̋ρ̳̳̋⟧
+╠═════════════════════╝
 ║[Ban " @Tag]:
 ║[Unban " @Tag]:
 ║[Urlon]: "Open urL"
@@ -234,7 +236,7 @@ helpMessage2 ="""╔══════════════════╗
 ║[Block url: on/off]:
 ║[Namelock: on/off]:
 ║[Blockinvite: on/off]:
-╚══════════════════╝
+╚═════════════════════╝
 """
 
 KAC=[cl,ki,kk,kc,kd,ke,kf,kg,kh,kj,kl,km,kn,ko,kp,kq,kr,ks,kt]
@@ -303,7 +305,7 @@ wait = {
     "pnharfbot":{},
     "pname":{},
     "pro_name":{},
-	"posts":False,
+    "posts":False,
 	}
 
 wait2 = {
