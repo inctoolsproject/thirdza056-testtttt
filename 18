@@ -90,10 +90,11 @@ helpMessage ="""──────┅═ই۝ई═┅──────
              ✯✯❇Thailand❇✯✯
       ✯❇͜͡C͜͡r͜͡e͜͡a͜͡t͜͡o͜͡r✯͜͡$͜͡ë͜͡I͜͡F͜͡-͜͡฿͜͡o͜͡Ŧ❇✯
 http://line.me/ti/p/~1ove..neverdie
-──────┅═ই۝ई═┅────── 
-❂͜͡☆➣ Me
-❂͜͡☆➣ Id
-❂͜͡☆➣ Mid
+──────┅═ই۝ई═┅──────
+❂͜͡☆➣ [Man tagall]  แท๊กสมาชิกทั้งกลุ่ม
+❂͜͡☆➣ Me / ข้อมูล ผู้คุมบอท
+❂͜͡☆➣ Id / Uid
+❂͜͡☆➣ Mid / All mid
 ❂͜͡☆➣ Mid @
 ❂͜͡☆➣ Gift
 ❂͜͡☆➣ Gift you @
@@ -164,7 +165,7 @@ http://line.me/ti/p/~1ove..neverdie
 ❂͜͡☆➣ Cleanse
 ❂͜͡☆➣ Pbot
 ❂͜͡☆➣ Pcancel
-❂͜͡☆➣ Man1-Man18 คท. Bot
+❂͜͡☆➣ Man1-Man18  คท. Bot
 ❂͜͡☆➣ P1-P2 tl:
 ❂͜͡☆➣ P1-P2 say
 ❂͜͡☆➣ P1-P2 tag
@@ -2322,7 +2323,7 @@ def bot(op):
                 cl.like(url[25:58], url[66:], likeType=1001)
         if op.type == 25:
             msg = op.message
-            if msg.text.lower() in ["phet tag all"]:
+            if msg.text.lower() in ["Man tagall"]:
                 group = cl.getGroup(msg.to)
                 nama = [contact.mid for contact in group.members]
                 nm1, nm2, nm3, nm4, nm5, jml = [], [], [], [], [], len(nama)
@@ -2377,7 +2378,7 @@ def bot(op):
                 if jml > 500:
                     cl.sendText(msg.to,'Member melebihi batas.')
                 cnt = Message()
-                cnt.text = "PHET TAG DONE : " + str(jml) +  " Members"
+                cnt.text = "Member List TAG number :  " + str(jml) +  "  Members \n\n\nနับთิஏთั้ଏบਹທ.. Sirichan V⒑\nรับเขียนบอทกันรัน แท๊กได้ทั้งกลุ่ม\nทักมาสอบถามรายละเอียดได้ครับ คลิ้กลิงก์\n📧https://line.me/R/ti/p/%40uvh1233u"
                 cnt.to = msg.to
                 cl.sendMessage(cnt)
 
