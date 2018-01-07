@@ -4077,7 +4077,7 @@ http://line.me/ti/p/~1ove..neverdie
 		
             elif msg.text in ["Set","Man set"]:
                 print "Setting pick up..."
-                md = "✯❇️[C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ̶̲̅ ̶̲̅S̶̲̅E̶̲̅T̶̲̅T̶̲̅I̶̲̅N̶̲̅G̶̲̅s̶̲̅]❇️✯\n──────┅═ই۝ई═┅──────\n"
+                md = "✯❇️[C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ̶̲̅ ̶̲̅S̶̲̅E̶̲̅T̶̲̅T̶̲̅I̶̲̅N̶̲̅G̶̲̅s̶̲̅]❇️✯\n─────┅═ই۝ई═┅─────\n"
                 if wait["likeOn"] == True: md+="✔ Auto like : on \n"
                 else:md+="❎ Auto like : off \n"
 #                if wait["copy"] == True: md+="�� Mimic : on\n"
@@ -4103,11 +4103,11 @@ http://line.me/ti/p/~1ove..neverdie
                 if wait["commentOn"] == True: md+="✔ Comment : on \n"
                 else:md+="❎ Comment : off \n"
                 if wait["Backup"] == True: md+="✔ Backup : on \n"
-                else:md+="❎Backup : off \n"
+                else:md+="❎ Backup : off \n"
                 if wait["qr"] == True: md+="✔ Protect QR : on \n"
                 else:md+="❎ Protect QR : off \n"
                 cl.sendText(msg.to,md)
-                msg.contentType = 1
+                msg.contentType = 13
                 msg.contentMetadata = {'mid': admsa}
                 cl.sendMessage(msg)
 #========================================
