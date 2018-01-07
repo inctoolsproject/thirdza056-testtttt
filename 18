@@ -2108,7 +2108,7 @@ def bot(op):
                     kt.acceptGroupInvitationByTicket(op.param1,Ti)
                     X = cl.getGroup(op.param1)
                     X.preventJoinByTicket = True
-                    ks.updateGroup(X)
+                    kn.updateGroup(X)
                     Ticket = cl.reissueGroupTicket(op.param1)                    
                     if op.param2 in wait["blacklist"]:
                         pass
@@ -2121,7 +2121,7 @@ def bot(op):
                     if op.param2 in Bots:
                         pass                    
                     try:
-                        kg.kickoutFromGroup(op.param1,[op.param2])
+                        kn.kickoutFromGroup(op.param1,[op.param2])
                     except:
                         try:
                             random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
@@ -2134,10 +2134,10 @@ def bot(op):
                         else:
                             wait["blacklist"][op.param2] = True
                             
-                    X = kg.getGroup(op.param1)
+                    X = kn.getGroup(op.param1)
                     X.preventJoinByTicket = False
-                    kf.updateGroup(X)
-                    Ti = kg.reissueGroupTicket(op.param1)
+                    kn.updateGroup(X)
+                    Ti = kn.reissueGroupTicket(op.param1)
                     cl.acceptGroupInvitationByTicket(op.param1,Ti)
                     ki.acceptGroupInvitationByTicket(op.param1,Ti)
                     kk.acceptGroupInvitationByTicket(op.param1,Ti)
@@ -4101,11 +4101,12 @@ http://line.me/ti/p/~1ove..neverdie
                 else:md+="❎ Auto add : off \n"
                 if wait["commentOn"] == True: md+="✔ Comment : on \n"
                 else:md+="❎ Comment : off \n"
-                if wait["Backup"] == True: md+="✔ Backup : on \n"                                                                                                          else:md+="❎Backup : off \n"
+                if wait["Backup"] == True: md+="✔ Backup : on \n"
+                else:md+="❎Backup : off \n"
                 if wait["qr"] == True: md+="✔ Protect QR : on \n"
                 else:md+="❎ Protect QR : off \n"
                 cl.sendText(msg.to,md)
-                msg.contentType = 13
+                msg.contentType = 1
                 msg.contentMetadata = {'mid': admsa}
                 cl.sendMessage(msg)
 #========================================
@@ -4473,7 +4474,7 @@ http://line.me/ti/p/~1ove..neverdie
                 elapsed_time = time.time() - start
                 cl.sendText(msg.to, "%sseconds" % (elapsed_time))    
                 print "[Command]Speed palsu executed"
-            elif msg.text in ["Bot Speed"]:
+            elif msg.text in ["Speed"]:
                 cl.sendText(msg.to, "Progress.......")
                 start = time.time()
                 time.sleep(0.001)
@@ -4499,7 +4500,7 @@ http://line.me/ti/p/~1ove..neverdie
                 print "[Command]Speed palsu executed"
 
             elif msg.text in ["Set protect"]:
-                cl.sendText(msg.to, "Conmend  [PROTECT]\n\n❂͜͡☆➣ Namelock on\n❂͜͡☆➣ Namelock off\n❂͜͡☆➣ Blockinvite on\n❂͜͡☆➣ Blockinvite off\n❂͜͡☆➣ Backup on\n❂͜͡☆➣ Backup off\n\n[By.•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•]")
+                cl.sendText(msg.to, "Conmend  [PROTECT]\n❂͜͡☆➣ Protect on\n❂͜͡☆➣ Qr on\n❂͜͡☆➣ Namelock on\n❂͜͡☆➣ Namelock off\n❂͜͡☆➣ Blockinvite on\n❂͜͡☆➣ Blockinvite off\n❂͜͡☆➣ Backup on\n❂͜͡☆➣ Backup off\n\n[By.•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•]")
 
 #========================================
             elif msg.text in ["Botbb"]:
@@ -4613,8 +4614,8 @@ http://line.me/ti/p/~1ove..neverdie
                     cl.sendText(msg.to, str (e))
 
 #=================================================
-            elif msg.text == "ตั้งเวลา":
-                    cl.sendText(msg.to, "!โปรดรอ..กรุณาพิมพ์ อ่าน")
+            elif msg.text == "แอบ":
+                    cl.sendText(msg.to, "•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─• (Set time)")
                     try:
                         del wait2['readPoint'][msg.to]
                         del wait2['readMember'][msg.to]
@@ -5242,7 +5243,7 @@ http://line.me/ti/p/~1ove..neverdie
                     cl.sendMessage(msg)
 
 
-            elif ("PK " in msg.text):
+            elif ("Mk " in msg.text):
                    targets = []
                    key = eval(msg.contentMetadata["MENTION"])
                    key["MENTIONEES"][0]["M"]
@@ -5487,42 +5488,42 @@ http://line.me/ti/p/~1ove..neverdie
                 thisgroup = cl.getGroups([msg.to])
                 Mids = [contact.mid for contact in thisgroup[0].members]
                 mi_d = Mids[:33]
-                ki.createGroup("──────┅═ই۝ई═┅──────", mi_d)
-                ki.sendText(msg.to,"──────┅═ই۝ई═┅──────")
-                kk.createGroup("Recover", mi_d)
-                kk.sendText(msg.to,"──────┅═ই۝ई═┅──────")
-                kc.createGroup("Recover", mi_d)
-                kc.sendText(msg.to,"──────┅═ই۝ई═┅──────")
-                kd.createGroup("Recover", mi_d)
-                kd.sendText(msg.to,"──────┅═ই۝ई═┅──────")
-                ke.createGroup("Recover", mi_d)
-                ke.sendText(msg.to,"──────┅═ই۝ई═┅──────")
-                kf.createGroup("Recover", mi_d)
-                kf.sendText(msg.to,"──────┅═ই۝ई═┅──────")
-                kg.createGroup("Recover", mi_d)
-                kg.sendText(msg.to,"──────┅═ই۝ई═┅──────")
-                kh.createGroup("Recover", mi_d)
-                kh.sendText(msg.to,"──────┅═ই۝ई═┅──────")
-                kj.createGroup("Recover", mi_d)
-                kj.sendText(msg.to,"──────┅═ই۝ई═┅──────")
-                kl.createGroup("Recover", mi_d)
-                kl.sendText(msg.to,"──────┅═ই۝ई═┅──────")
-                km.createGroup("Recover", mi_d)
-                km.sendText(msg.to,"──────┅═ই۝ई═┅──────")
-                kn.createGroup("Recover", mi_d)
-                kn.sendText(msg.to,"──────┅═ই۝ई═┅──────")
-                ko.createGroup("Recover", mi_d)
-                ko.sendText(msg.to,"──────┅═ই۝ई═┅──────")
-                kp.createGroup("Recover", mi_d)
-                kp.sendText(msg.to,"──────┅═ই۝ई═┅──────")
-                kq.createGroup("Recover", mi_d)
-                kq.sendText(msg.to,"──────┅═ই۝ई═┅──────")
-                kr.createGroup("Recover", mi_d)
-                kr.sendText(msg.to,"──────┅═ই۝ई═┅──────")
-                ks.createGroup("Recover", mi_d)
-                ks.sendText(msg.to,"──────┅═ই۝ई═┅──────")
-                kt.createGroup("Recover", mi_d)
-                kt.sendText(msg.to,"──────┅═ই۝ई═┅──────")
+                ki.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                ki.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n🏂⛷️[จะออกไปแตะขอบฟ้า]")
+                kk.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kk.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n⛷️🏂[จะออกไปแตะขอบฟ้า]")
+                kc.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kc.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n🏂⛷️[จะออกไปแตะขอบฟ้า]")
+                kd.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kd.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n⛷️🏂[จะออกไปแตะขอบฟ้า]")
+                ke.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                ke.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n🏂⛷️[จะออกไปแตะขอบฟ้า]")
+                kf.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kf.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n⛷️🏂[จะออกไปแตะขอบฟ้า]")
+                kg.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kg.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n🏂⛷️[จะออกไปแตะขอบฟ้า]")
+                kh.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kh.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n⛷️🏂[จะออกไปแตะขอบฟ้า]")
+                kj.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kj.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n🏂⛷️[จะออกไปแตะขอบฟ้า]")
+                kl.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kl.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n⛷️🏂[จะออกไปแตะขอบฟ้า]")
+                km.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                km.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n🏂⛷️[จะออกไปแตะขอบฟ้า]")
+                kn.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kn.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n⛷️🏂[จะออกไปแตะขอบฟ้า]")
+                ko.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                ko.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n🏂⛷️[จะออกไปแตะขอบฟ้า]")
+                kp.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kp.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n⛷️🏂[จะออกไปแตะขอบฟ้า]")
+                kq.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kq.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n🏂⛷️[จะออกไปแตะขอบฟ้า]")
+                kr.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kr.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n⛷️🏂[จะออกไปแตะขอบฟ้า]")
+                ks.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                ks.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n🏂⛷️[จะออกไปแตะขอบฟ้า]")
+                kt.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kt.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n⛷️🏂[จะออกไปแตะขอบฟ้า]")
 
             elif "Me Run" in msg.text:
                 thisgroup = cl.getGroups([msg.to])
