@@ -5646,7 +5646,7 @@ http://line.me/ti/p/~1ove..neverdie
 		    wait ["blacklist"][op.param2] = True
 		    cl.cancelGroupInvitation(op.param1,[op.param3])
 		else:
-		    cl.sendText(op.param1,"Invite members to join the group\n\n[ ᴀᴅᴍɪɴ ʙᴏᴛ ]\n[By.เพชร ทีมทดลองบอท]")
+		    cl.sendText(op.param1,"「INVITE MEMBERs TO JOIN THE TIME GROUP」\n\n[⏰] " +datetime.today().strftime('%H:%M:%S')) 
 	    if op.param2 not in Bots:
 		if op.param2 in Bots:
 		    pass
@@ -5654,7 +5654,12 @@ http://line.me/ti/p/~1ove..neverdie
 		    wait ["blacklist"][op.param2] = True
 		    cl.cancelGroupInvitation(op.param1,[op.param3])
 		else:
-		    cl.sendText(op.param1,"มีการเชิญสมาชิกเข้าร่วมกลุ่ม\n\n[ ᴀᴅᴍɪɴ ʙᴏᴛ ]\n[By.เพชร ทีมทดลองบอท]")
+		    cl.sendText(op.param1,"""[มีการเชิญสมาชิกเข้าร่วมกลุ่ม]\n\n[ ᴀᴅᴍɪɴ ʙᴏᴛ ]\n
+──────┅═ই۝ई═┅──────
+နับთิஏთั้ଏบਹທ  Sirichan V⒑
+สนใจติดต่อที่  ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ
+http://line.me/ti/p/~1ove..neverdie
+──────┅═ই۝ई═┅──────""")
 	if op.type == 11:
 	    if op.param2 not in Bots:
 		if op.param2 in Bots:
@@ -5666,7 +5671,7 @@ http://line.me/ti/p/~1ove..neverdie
 		    cl.updateGroup(G)
 		    random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
 		else:
-		    cl.sendText(op.param1,"You have updated the link of the group\n\n[ ᴀᴅᴍɪɴ ʙᴏᴛ ]\n[By.เพชร ทีมทดลองบอท]")
+		    cl.sendText(op.param1,"「YOU HAVE UPDATED THE LINK OF THE GROUP」\n\n[⏰] " +datetime.today().strftime('%H:%M:%S'))
 #===========================================
         if op.param3 == "1":
             if op.param1 in protectname:
