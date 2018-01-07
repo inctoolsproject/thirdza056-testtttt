@@ -2731,13 +2731,13 @@ def bot(op):
                     for jj in matched_list:
                         ki.kickoutFromGroup(msg.to,[jj])
                         pass
+
             elif msg.text.lower() in ["admins","Creator"]:
                 msg.contentType = 13
                 adm = 'ud24af63fd62d14c3bf8f719df80c3745'
                 msg.contentMetadata = {'mid': adm}
                 cl.sendMessage(msg)
                 cl.sendText(msg.to,"──────┅═ই۝ई═┅──────\nနับთิஏთั้ଏบਹທ  Sirichan V⒑\nสนใจติดต่อที่.. ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ\n http://line.me/ti/p/~1ove..neverdie \n──────┅═ই۝ई═┅──────")
-
 
             elif msg.text in ["ของขวัญ","Gift"]:
                 msg.contentType = 9
@@ -3436,7 +3436,6 @@ http://line.me/ti/p/~1ove..neverdie
                     else:
                          pass
 
-
             elif "Mid" == msg.text:
                 cl.sendText(msg.to,mid)			
             elif "P1 mid" == msg.text:
@@ -3471,26 +3470,26 @@ http://line.me/ti/p/~1ove..neverdie
                     else:
                          cl.sendText(msg.to,"Not for use less than group")
             elif "Bot?" in msg.text:
-                ki.sendText(msg.to,"Bot 1🔥")
-                kk.sendText(msg.to,"Bot 2🔥")
-                kc.sendText(msg.to,"Bot 3🔥")
-                kd.sendText(msg.to,"Bot 4🔥")
-                ke.sendText(msg.to,"Bot 5🔥")
-                kf.sendText(msg.to,"Bot 6🔥")
-                kg.sendText(msg.to,"Bot 7🔥")
-                kh.sendText(msg.to,"Bot 8🔥")
-                kj.sendText(msg.to,"Bot 9🔥")
-                kl.sendText(msg.to,"Bot 10🔥")
-                km.sendText(msg.to,"Bot 11🔥")
-                kn.sendText(msg.to,"Bot 12🔥")
-                ko.sendText(msg.to,"Bot 13🔥")
-                kp.sendText(msg.to,"Bot 14🔥")
-                kq.sendText(msg.to,"Bot 15🔥")
-                kr.sendText(msg.to,"Bot 16🔥")
-                ks.sendText(msg.to,"Bot 17🔥")
-                kt.sendText(msg.to,"Bot 18🔥")
-            elif "Phet Say " in msg.text:
-                                bctxt = msg.text.replace("Phet Say ","")
+                ki.sendText(msg.to,"Bot 💀1💀 •─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•")
+                kk.sendText(msg.to,"Bot 💀2💀 •─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•")
+                kc.sendText(msg.to,"Bot 💀3💀 •─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•")
+                kd.sendText(msg.to,"Bot 💀4💀 •─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•")
+                ke.sendText(msg.to,"Bot 💀5💀 •─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•")
+                kf.sendText(msg.to,"Bot 💀6💀 •─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•")
+                kg.sendText(msg.to,"Bot 💀7💀 •─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•")
+                kh.sendText(msg.to,"Bot 💀8💀 •─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•")
+                kj.sendText(msg.to,"Bot 💀9💀 •─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•")
+                kl.sendText(msg.to,"Bot 💀10💀 •─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•")
+                km.sendText(msg.to,"Bot 💀11💀 •─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•")
+                kn.sendText(msg.to,"Bot 💀12💀 •─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•")
+                ko.sendText(msg.to,"Bot 💀13💀 •─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•")
+                kp.sendText(msg.to,"Bot 💀14💀 •─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•")
+                kq.sendText(msg.to,"Bot 💀15💀 •─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•")
+                kr.sendText(msg.to,"Bot 💀16💀 •─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•")
+                ks.sendText(msg.to,"Bot 💀17💀 •─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•")
+                kt.sendText(msg.to,"Bot 💀18💀 •─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•")
+            elif "Man Say " in msg.text:
+                                bctxt = msg.text.replace("Man Say ","")
                                 ki.sendText(msg.to,(bctxt))
                                 kk.sendText(msg.to,(bctxt))
                                 kc.sendText(msg.to,(bctxt))
@@ -3897,9 +3896,9 @@ http://line.me/ti/p/~1ove..neverdie
                         cl.sendText(msg.to,"Already。")
 
 
-            elif msg.text in ["Sett","Set"]:
+            elif msg.text in ["Sett","Setting"]:
                 print "Setting pick up..."
-                md = "✯= ꧁ 🐯हईທຮຮๅજईह🐯 ꧂=✯\n\n"
+                md = "•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n\n"
                 if wait["likeOn"] == True: md+="􀜁􀇔􏿿 Auto like : on 􀜁􀄯􏿿\n"
                 else:md+="􀜁􀇔􏿿 Auto like : off 􀜁􀄰􏿿\n"
 #                if wait["copy"] == True: md+="�� Mimic : on\n"
@@ -3932,6 +3931,43 @@ http://line.me/ti/p/~1ove..neverdie
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': admsa}
                 cl.sendMessage(msg)
+		
+            elif msg.text in ["Set","Man set"]:
+                print "Setting pick up..."
+                md = "✯❇️[C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ̶̲̅ ̶̲̅S̶̲̅E̶̲̅T̶̲̅T̶̲̅I̶̲̅N̶̲̅G̶̲̅s̶̲̅]❇️✯\n──────┅═ই۝ई═┅──────\n"
+                if wait["likeOn"] == True: md+="✔ Auto like : on \n"
+                else:md+="❎ Auto like : off \n"
+#                if wait["copy"] == True: md+="�� Mimic : on\n"
+#                else:md+=" �� Mimic : off\n"
+                if wait["winvite"] == True: md+="✔ Invite : on \n"
+                else:md+="❎ Invite : off \n"
+                if wait["pname"] == True: md+="✔ Namelock : on \n"
+                else:md+="❎ Namelock : off \n"
+                if wait["contact"] == True: md+="✔ Contact : on \n"
+                else: md+="❎ Contact : off \n"
+                if wait["autoJoin"] == True: md+="✔ Auto join : on \n"
+                else: md+="❎ Auto join : off \n"
+                if wait["autoCancel"]["on"] == True:md+="❇️ Group cancel :" + str(wait["autoCancel"]["members"]) + " ⭕\n"
+                else: md+="❎ Group cancel : off \n"
+                if wait["leaveRoom"] == True: md+="✔ Auto leave : on \n"
+                else: md+="❎ Auto leave : off \n"
+                if wait["timeline"] == True: md+="✔ Share : on \n"
+                else:md+="❎ Share : off \n"
+                if wait["clock"] == True: md+="✔ Clock Name : on\n"
+                else:md+="❎ Clock Name : off \n"
+                if wait["autoAdd"] == True: md+="✔ Auto add : on \n"
+                else:md+="❎ Auto add : off \n"
+                if wait["commentOn"] == True: md+="✔ Comment : on \n"
+                else:md+="❎ Comment : off \n"
+                if wait["Backup"] == True: md+="✔ Backup : on \n"                                                                                                          else:md+="❎Backup : off \n"
+                if wait["qr"] == True: md+="✔ Protect QR : on \n"
+                else:md+="❎ Protect QR : off \n"
+                cl.sendText(msg.to,md)
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': admsa}
+                cl.sendMessage(msg)
+#========================================
+#========================================
 #========================================
 #------------------------------------------------
             elif msg.text in ["Gcreator:inv","เชิญเเอทมิน"]:
@@ -4241,8 +4277,8 @@ http://line.me/ti/p/~1ove..neverdie
                         except:
                             pass
                 print "[Command]dp executed"
-            elif "Hack2mid:" in msg.text:
-                umid = msg.text.replace("Hack2mid:","")
+            elif "Hack-mid:" in msg.text:
+                umid = msg.text.replace("Hack-mid:","")
                 contact = cl.getContact(umid)
                 try:
                     image = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
@@ -4320,8 +4356,8 @@ http://line.me/ti/p/~1ove..neverdie
                 kt.sendText(msg.to, "%sseconds" % (elapsed_time))    
                 print "[Command]Speed palsu executed"
 
-            elif msg.text in ["Keyy"]:
-                cl.sendText(msg.to, "[SELFBOT PHET HACK BOT]\n\n❂͜͡☆➣ Namelock on\n❂͜͡☆➣ Namelock off\n❂͜͡☆➣ Blockinvite on\n❂͜͡☆➣ Blockinvite off\n❂͜͡☆➣ Backup on\n❂͜͡☆➣ Backup off\n\n[By.เพชร ทีมทดลองบอท]")
+            elif msg.text in ["Set protect"]:
+                cl.sendText(msg.to, "Conmend  [PROTECT]\n\n❂͜͡☆➣ Namelock on\n❂͜͡☆➣ Namelock off\n❂͜͡☆➣ Blockinvite on\n❂͜͡☆➣ Blockinvite off\n❂͜͡☆➣ Backup on\n❂͜͡☆➣ Backup off\n\n[By.•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•]")
 
 #========================================
             elif msg.text in ["Botbb"]:
@@ -4488,7 +4524,7 @@ http://line.me/ti/p/~1ove..neverdie
                         for target in targets:
                           if target not in Bots:
                             try:
-                                klist=[cl,ki,kk,kc,kd,ke,kf,kg,kh,kj,kn,ko,kp,kq,kr,ks,kt]
+                                klist=[ki,kk,kc,kd,ke,kf,kg,kh,kj,kl,km,kn,ko,kp,kq,kr,ks,kt,cl]
                                 kicker=random.choice(klist)
                                 kicker.kickoutFromGroup(msg.to,[target])
                                 print (msg.to,[g.mid])
@@ -4562,13 +4598,13 @@ http://line.me/ti/p/~1ove..neverdie
                     else:
                         pass
 #-------------------------------------------------
-            elif "!ส่งข้อความ:" in msg.text:
-					bctxt = msg.text.replace("Cbroadcast ", "")
+            elif "Cbroadcast " in msg.text:
+					bctxt = msg.text.replace("Cbroadcast ", "ประกาศแชท")
 					t = cl.getAllContactIds()
 					for manusia in t:
 						cl.sendText(manusia,(bctxt))
-            elif "!ส่งข้อความกลุ่ม" in msg.text:
-					bctxt = msg.text.replace("Gbroadcast ", "")
+            elif "Gbroadcast " in msg.text:
+                                        bctxt = msg.text.replace("Gbroadcast ", "ประกาศกลุ่ม")
 					n = cl.getGroupIdsJoined()
 					for manusia in n:
 						cl.sendText(manusia,(bctxt))
@@ -4602,7 +4638,7 @@ http://line.me/ti/p/~1ove..neverdie
                 cl.sendMessage(msg)
 
 #========================================
-            elif msg.text in ["Gu Tar","bot join all","มาหำ"]:
+            elif msg.text in ["Gu Tar","Kicker","มาหำ"]:
 					G = cl.getGroup(msg.to)
 					info = cl.getGroup(msg.to)
 					G.preventJoinByTicket = False
@@ -4819,7 +4855,7 @@ http://line.me/ti/p/~1ove..neverdie
 					ki.sendText(msg.to,"KAMI PAMIT TEMAN👋😂")
 				else:
 					ki.sendText(msg.to,"He declined all invitations")
-            elif msg.text in ["Gu bye","!bye"]:
+            elif msg.text in ["Gu bye","@bye","Bye"]:
                 if msg.toType == 2:
                    X = cl.getGroup(msg.to)
                 try:
@@ -4891,17 +4927,17 @@ http://line.me/ti/p/~1ove..neverdie
                         return
                     for jj in matched_list:
                         try:
-                            klist=[ki,kk,kc,kd,ke,cl,kf,kg,kh,kj,kn,ko,kp,kq,kr,ks,kt]
+                            klist=[ki,kk,kc,kd,ke,kf,kg,kh,kj,kl,km,kn,ko,kp,kq,kr,ks,kt]
                             kicker = random.choice(klist)
                             kicker.kickoutFromGroup(msg.to,[jj])
                             print (msg.to,[jj])
                         except:
                             pass
-            elif "!!Phet!!" in msg.text:
+            elif "Error!" in msg.text:
                 if msg.toType == 2:
                     print "ok"
-                    _name = msg.text.replace("!!Phet!!","")
-                    klist=[km,kl,kj,kh,kg,kf,ke,kd,kc,kk,ki,cl,kn,ko,kp,kq,kr,ks,kt]
+                    _name = msg.text.replace("Error!","")
+                    klist=[ki,kk,kc,kd,ke,kf,kg,kh,kj,kl,km,kn,ko,kp,kq,kr,ks,kt]
                     kicker = random.choice(klist)
                     gs = ki.getGroup(msg.to)
                     gs = kk.getGroup(msg.to)
@@ -4912,6 +4948,8 @@ http://line.me/ti/p/~1ove..neverdie
                     gs = kg.getGroup(msg.to)
                     gs = kh.getGroup(msg.to)
                     gs = kj.getGroup(msg.to)
+                    gs = kl.getGroup(msg.to)
+                    gs = km.getGroup(msg.to)
                     gs = kn.getGroup(msg.to)
                     gs = ko.getGroup(msg.to)
                     gs = kp.getGroup(msg.to)
@@ -4933,7 +4971,7 @@ http://line.me/ti/p/~1ove..neverdie
                         for target in targets:
                           if not target in Bots:
                             try:
-                               klist=[km,kl,kj,kh,kg,kf,ke,kd,kc,kk,ki,cl,kn,ko,kp,kq,kr,ks,kt]
+                               klist=[ki,kk,kc,kd,ke,kf,kg,kh,kj,kl,km,kn,ko,kp,kq,kr,ks,kt]
                                kicker = random.choice(klist)
                                kicker.kickoutFromGroup(msg.to,[target])
                                print (msg.to,[g.mid])
@@ -4941,7 +4979,7 @@ http://line.me/ti/p/~1ove..neverdie
                                 ki.sendText(msg,to,"Group cleanse")
                                 kk.sendText(msg,to,"Group cleanse")
                             pass
-            elif ("#PK " in msg.text):
+            elif ("Kick " in msg.text):
 				if msg.from_ in admin:
 					targets = []
 					key = eval(msg.contentMetadata["MENTION"])
@@ -4954,8 +4992,8 @@ http://line.me/ti/p/~1ove..neverdie
 						except:
 							cl.sendText(msg.to,"Error")
 							
-            elif "KK " in msg.text:
-                       nk0 = msg.text.replace("NK ","")
+            elif "??¿ " in msg.text:
+                       nk0 = msg.text.replace("??¿ ","")
                        nk1 = nk0.lstrip()
                        nk2 = nk1.replace("@","")
                        nk3 = nk2.rstrip()
@@ -4988,8 +5026,8 @@ http://line.me/ti/p/~1ove..neverdie
                                     gs.preventJoinByTicket(gs)
                         	    cl.updateGroup(gs)
 							
-            elif "KK1 " in msg.text:
-                       nk0 = msg.text.replace("KK1 ","")
+            elif "Nk " in msg.text:
+                       nk0 = msg.text.replace("Nk ","")
                        nk1 = nk0.lstrip()
                        nk2 = nk1.replace("@","")
                        nk3 = nk2.rstrip()
@@ -5022,7 +5060,7 @@ http://line.me/ti/p/~1ove..neverdie
                                     gs.preventJoinByTicket(gs)
                         	    cl.updateGroup(gs)
 #-----------------------------------------------------------
-            elif ("PK2 " in msg.text):
+            elif ("Kick2 " in msg.text):
                    targets = []
                    key = eval(msg.contentMetadata["MENTION"])
                    key["MENTIONEES"][0]["M"]
@@ -5032,8 +5070,8 @@ http://line.me/ti/p/~1ove..neverdie
                        try:
                            ke.kickoutFromGroup(msg.to,[target])
                        except:
-                           kie.sendText(msg.to,"Error")
-            elif ("PK3 " in msg.text):
+                           ke.sendText(msg.to,"Error")
+            elif ("Kick3 " in msg.text):
                    targets = []
                    key = eval(msg.contentMetadata["MENTION"])
                    key["MENTIONEES"][0]["M"]
@@ -5045,7 +5083,7 @@ http://line.me/ti/p/~1ove..neverdie
                        except:
                            kd.sendText(msg.to,"Error")
 
-            elif "Phet@@" in msg.text:
+            elif "Man@@" in msg.text:
                 group = cl.getGroup(msg.to)
                 k = len(group.members)//100
                 for j in xrange(k+1):
@@ -5134,9 +5172,9 @@ http://line.me/ti/p/~1ove..neverdie
                                 cl.sendText(msg.to,"Sudah di keluarkan dari daftar bejat Boss")
                             except:
                                 cl.sendText(msg.to,"There was no blacklist user")
-            elif msg.text in ["Clear ban","ล้างดำ"]:
+            elif msg.text in ["Clear ban","ล้างดำ","Cb"]:
 				wait["blacklist"] = {}
-				cl.sendText(msg.to,"clear")
+				cl.sendText(msg.to,"[Clear Blacklist]")
 				
             elif msg.text in ["Ban"]:
                 wait["wblacklist"] = True
@@ -5155,7 +5193,7 @@ http://line.me/ti/p/~1ove..neverdie
                     for mi_d in wait["blacklist"]:
                         mc += "[✗] " + cl.getContact(mi_d).displayName + " \n"
                     cl.sendText(msg.to, mc + "")
-            elif msg.text in ["Me ban","Cekban","Mcheck mid"]:
+            elif msg.text in ["Me ban","Cekban","Conban"]:
                 if msg.toType == 2:
                     group = cl.getGroup(msg.to)
                     gMembMids = [contact.mid for contact in group.members]
@@ -5183,7 +5221,19 @@ http://line.me/ti/p/~1ove..neverdie
                         kc.kickoutFromGroup(msg.to,[jj])
                         kd.kickoutFromGroup(msg.to,[jj])
                         ke.kickoutFromGroup(msg.to,[jj])
-                        
+                        kf.kickoutFromGroup(msg.to,[jj])
+                        kg.kickoutFromGroup(msg.to,[jj])
+                        kh.kickoutFromGroup(msg.to,[jj])
+                        kj.kickoutFromGroup(msg.to,[jj])
+                        kl.kickoutFromGroup(msg.to,[jj])
+                        km.kickoutFromGroup(msg.to,[jj])
+                        kn.kickoutFromGroup(msg.to,[jj])
+                        ko.kickoutFromGroup(msg.to,[jj])
+                        kp.kickoutFromGroup(msg.to,[jj])
+                        kq.kickoutFromGroup(msg.to,[jj])
+                        kr.kickoutFromGroup(msg.to,[jj])
+                        ks.kickoutFromGroup(msg.to,[jj])
+                        kt.kickoutFromGroup(msg.to,[jj])
                     cl.sendText(msg.to,"Blacklist user")
 
 
@@ -5291,46 +5341,46 @@ http://line.me/ti/p/~1ove..neverdie
                    except:
                       pass        
 #============================================
-            elif "Bot Run" in msg.text:
+            elif "Run group" in msg.text:
                 thisgroup = cl.getGroups([msg.to])
                 Mids = [contact.mid for contact in thisgroup[0].members]
                 mi_d = Mids[:33]
-                ki.createGroup("Recover", mi_d)
-                ki.sendText(msg.to,"Success recover")
-                ki.createGroup("Recover", mi_d)
-                kl.sendText(msg.to,"Success recover")
+                ki.createGroup("──────┅═ই۝ई═┅──────", mi_d)
+                ki.sendText(msg.to,"──────┅═ই۝ई═┅──────")
+                kk.createGroup("Recover", mi_d)
+                kk.sendText(msg.to,"──────┅═ই۝ई═┅──────")
                 kc.createGroup("Recover", mi_d)
-                kc.sendText(msg.to,"Success recover")
+                kc.sendText(msg.to,"──────┅═ই۝ई═┅──────")
                 kd.createGroup("Recover", mi_d)
-                kd.sendText(msg.to,"Success recover")
+                kd.sendText(msg.to,"──────┅═ই۝ई═┅──────")
                 ke.createGroup("Recover", mi_d)
-                ke.sendText(msg.to,"Success recover")
+                ke.sendText(msg.to,"──────┅═ই۝ई═┅──────")
                 kf.createGroup("Recover", mi_d)
-                kf.sendText(msg.to,"Success recover")
+                kf.sendText(msg.to,"──────┅═ই۝ई═┅──────")
                 kg.createGroup("Recover", mi_d)
-                kg.sendText(msg.to,"Success recover")
+                kg.sendText(msg.to,"──────┅═ই۝ई═┅──────")
                 kh.createGroup("Recover", mi_d)
-                kh.sendText(msg.to,"Success recover")
+                kh.sendText(msg.to,"──────┅═ই۝ई═┅──────")
                 kj.createGroup("Recover", mi_d)
-                kj.sendText(msg.to,"Success recover")
+                kj.sendText(msg.to,"──────┅═ই۝ई═┅──────")
                 kl.createGroup("Recover", mi_d)
-                kl.sendText(msg.to,"Success recover")
+                kl.sendText(msg.to,"──────┅═ই۝ई═┅──────")
                 km.createGroup("Recover", mi_d)
-                km.sendText(msg.to,"Success recover")
-                km.createGroup("Recover", mi_d)
-                km.sendText(msg.to,"Success recover")
-                km.createGroup("Recover", mi_d)
-                km.sendText(msg.to,"Success recover")
-                km.createGroup("Recover", mi_d)
-                km.sendText(msg.to,"Success recover")
+                km.sendText(msg.to,"──────┅═ই۝ई═┅──────")
+                kn.createGroup("Recover", mi_d)
+                kn.sendText(msg.to,"──────┅═ই۝ई═┅──────")
+                ko.createGroup("Recover", mi_d)
+                ko.sendText(msg.to,"──────┅═ই۝ई═┅──────")
+                kp.createGroup("Recover", mi_d)
+                kp.sendText(msg.to,"──────┅═ই۝ई═┅──────")
                 kq.createGroup("Recover", mi_d)
-                kq.sendText(msg.to,"Success recover")
-                kq.createGroup("Recover", mi_d)
-                kq.sendText(msg.to,"Success recover")
+                kq.sendText(msg.to,"──────┅═ই۝ई═┅──────")
+                kr.createGroup("Recover", mi_d)
+                kr.sendText(msg.to,"──────┅═ই۝ई═┅──────")
                 ks.createGroup("Recover", mi_d)
-                ks.sendText(msg.to,"Success recover")
+                ks.sendText(msg.to,"──────┅═ই۝ई═┅──────")
                 kt.createGroup("Recover", mi_d)
-                kt.sendText(msg.to,"Success recover")
+                kt.sendText(msg.to,"──────┅═ই۝ई═┅──────")
 
             elif "Me Run" in msg.text:
                 thisgroup = cl.getGroups([msg.to])
