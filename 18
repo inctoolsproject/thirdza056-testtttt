@@ -840,6 +840,56 @@ def bot(op):
                         Ti = kr.reissueGroupTicket(op.param1)
 
                 if op.param3 in mid:
+                    if op.param2 in Amid:
+                        X = ki.getGroup(op.param1)
+                        X.preventJoinByTicket = False
+                        ki.updateGroup(X)
+                        Ti = ki.reissueGroupTicket(op.param1)
+                        cl.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        X.preventJoinByTicket = True
+                        ki.updateGroup(X)
+                        Ti = ki.reissueGroupTicket(op.param1)
+                if op.param3 in mid:
+                    if op.param2 in Bmid:
+                        X = kk.getGroup(op.param1)
+                        X.preventJoinByTicket = False
+                        kk.updateGroup(X)
+                        Ti = kk.reissueGroupTicket(op.param1)
+                        cl.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        X.preventJoinByTicket = True
+                        kk.updateGroup(X)
+                        Ti = kk.reissueGroupTicket(op.param1)
+                if op.param3 in mid:
+                    if op.param2 in Cmid:
+                        X = kc.getGroup(op.param1)
+                        X.preventJoinByTicket = False
+                        kc.updateGroup(X)
+                        Ti = kc.reissueGroupTicket(op.param1)
+                        cl.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        X.preventJoinByTicket = True
+                        kc.updateGroup(X)
+                        Ti = kc.reissueGroupTicket(op.param1)
+                if op.param3 in mid:
+                    if op.param2 in Dmid:
+                        X = kd.getGroup(op.param1)
+                        X.preventJoinByTicket = False
+                        kd.updateGroup(X)
+                        Ti = kd.reissueGroupTicket(op.param1)
+                        cl.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        X.preventJoinByTicket = True
+                        kd.updateGroup(X)
+                        Ti = kd.reissueGroupTicket(op.param1)
+                if op.param3 in mid:
+                    if op.param2 in Emid:
+                        X = ke.getGroup(op.param1)
+                        X.preventJoinByTicket = False
+                        ke.updateGroup(X)
+                        Ti = ke.reissueGroupTicket(op.param1)
+                        cl.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        X.preventJoinByTicket = True
+                        ke.updateGroup(X)
+                        Ti = ke.reissueGroupTicket(op.param1)
+                if op.param3 in mid:
                     if op.param2 in Fmid:
                         X = kf.getGroup(op.param1)
                         X.preventJoinByTicket = False
@@ -860,6 +910,56 @@ def bot(op):
                         kg.updateGroup(X)
                         Ti = kg.reissueGroupTicket(op.param1)
                 if op.param3 in mid:
+                    if op.param2 in Hmid:
+                        X = kh.getGroup(op.param1)
+                        X.preventJoinByTicket = False
+                        kh.updateGroup(X)
+                        Ti = kh.reissueGroupTicket(op.param1)
+                        cl.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        X.preventJoinByTicket = True
+                        kh.updateGroup(X)
+                        Ti = kh.reissueGroupTicket(op.param1)
+                if op.param3 in mid:
+                    if op.param2 in Jmid:
+                        X = kj.getGroup(op.param1)
+                        X.preventJoinByTicket = False
+                        kj.updateGroup(X)
+                        Ti = kj.reissueGroupTicket(op.param1)
+                        cl.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        X.preventJoinByTicket = True
+                        kj.updateGroup(X)
+                        Ti = kj.reissueGroupTicket(op.param1)
+                if op.param3 in mid:
+                    if op.param2 in Lmid:
+                        X = kl.getGroup(op.param1)
+                        X.preventJoinByTicket = False
+                        kL.updateGroup(X)
+                        Ti = kl.reissueGroupTicket(op.param1)
+                        cl.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        X.preventJoinByTicket = True
+                        kl.updateGroup(X)
+                        Ti = kl.reissueGroupTicket(op.param1)
+                if op.param3 in mid:
+                    if op.param2 in Mmid:
+                        X = km.getGroup(op.param1)
+                        X.preventJoinByTicket = False
+                        km.updateGroup(X)
+                        Ti = km.reissueGroupTicket(op.param1)
+                        cl.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        X.preventJoinByTicket = True
+                        km.updateGroup(X)
+                        Ti = km.reissueGroupTicket(op.param1)
+                if op.param3 in mid:
+                    if op.param2 in Nmid:
+                        X = kn.getGroup(op.param1)
+                        X.preventJoinByTicket = False
+                        kn.updateGroup(X)
+                        Ti = kn.reissueGroupTicket(op.param1)
+                        cl.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        X.preventJoinByTicket = True
+                        kn.updateGroup(X)
+                        Ti = kn.reissueGroupTicket(op.param1)
+                if op.param3 in mid:
                     if op.param2 in Omid:
                         X = ko.getGroup(op.param1)
                         X.preventJoinByTicket = False
@@ -879,6 +979,46 @@ def bot(op):
                         X.preventJoinByTicket = True
                         kp.updateGroup(X)
                         Ti = kp.reissueGroupTicket(op.param1)
+                if op.param3 in mid:
+                    if op.param2 in Qmid:
+                        X = kq.getGroup(op.param1)
+                        X.preventJoinByTicket = False
+                        kq.updateGroup(X)
+                        Ti = kq.reissueGroupTicket(op.param1)
+                        cl.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        X.preventJoinByTicket = True
+                        kq.updateGroup(X)
+                        Ti = kq.reissueGroupTicket(op.param1)
+                if op.param3 in mid:
+                    if op.param2 in Rmid:
+                        X = kr.getGroup(op.param1)
+                        X.preventJoinByTicket = False
+                        kr.updateGroup(X)
+                        Ti = kr.reissueGroupTicket(op.param1)
+                        cl.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        X.preventJoinByTicket = True
+                        kr.updateGroup(X)
+                        Ti = kr.reissueGroupTicket(op.param1)
+                if op.param3 in mid:
+                    if op.param2 in Smid:
+                        X = ks.getGroup(op.param1)
+                        X.preventJoinByTicket = False
+                        ks.updateGroup(X)
+                        Ti = ks.reissueGroupTicket(op.param1)
+                        cl.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        X.preventJoinByTicket = True
+                        ks.updateGroup(X)
+                        Ti = ks.reissueGroupTicket(op.param1)
+                if op.param3 in mid:
+                    if op.param2 in Tmid:
+                        X = kt.getGroup(op.param1)
+                        X.preventJoinByTicket = False
+                        kt.updateGroup(X)
+                        Ti = kt.reissueGroupTicket(op.param1)
+                        cl.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        X.preventJoinByTicket = True
+                        kt.updateGroup(X)
+                        Ti = kt.reissueGroupTicket(op.param1)
 #===========================================
         if op.type == 32:
             if not op.param2 in Bots:
