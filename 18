@@ -276,7 +276,7 @@ adminMID = "ud24af63fd62d14c3bf8f719df80c3745"
 wait = {
     'contact':False,
     'autoJoin':False,
-    'autoCancel':{"on":False, "members":1},
+    'autoCancel':{"on":True, "members":1},
     'leaveRoom':True,
     'timeline':True,
     'autoAdd':False,
@@ -4077,7 +4077,7 @@ http://line.me/ti/p/~1ove..neverdie
 		
             elif msg.text in ["Set","Man set"]:
                 print "Setting pick up..."
-                md = "✯❇️[C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ̶̲̅ ̶̲̅S̶̲̅E̶̲̅T̶̲̅T̶̲̅I̶̲̅N̶̲̅G̶̲̅s̶̲̅]❇️✯\n─────┅═ই۝ई═┅─────\n"
+                md = "✯❇️[C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ̶̲̅ ̶̲̅S̶̲̅E̶̲̅T̶̲̅T̶̲̅I̶̲̅N̶̲̅G̶̲̅s̶̲̅]❇️✯\n────┅═ই۝ई═┅────\n"
                 if wait["likeOn"] == True: md+="✔ Auto like : on \n"
                 else:md+="❎ Auto like : off \n"
 #                if wait["copy"] == True: md+="�� Mimic : on\n"
@@ -5647,7 +5647,7 @@ http://line.me/ti/p/~1ove..neverdie
 		    wait ["blacklist"][op.param2] = True
 		    cl.cancelGroupInvitation(op.param1,[op.param3])
 		else:
-		    cl.sendText(op.param1,"「INVITE MEMBERs TO JOIN THE TIME GROUP」\n\n[⏰] " +datetime.today().strftime('%H:%M:%S')) 
+		    cl.sendText(op.param1,"「INVITE MEMBERs TO JOIN THE TIME GROUP」\n\n[⏰]  " +datetime.today().strftime('%H:%M:%S')) 
 	    if op.param2 not in Bots:
 		if op.param2 in Bots:
 		    pass
@@ -5672,7 +5672,7 @@ http://line.me/ti/p/~1ove..neverdie
 		    cl.updateGroup(G)
 		    random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
 		else:
-		    cl.sendText(op.param1,"「YOU HAVE UPDATED THE LINK OF THE GROUP」\n\n[⏰] " +datetime.today().strftime('%H:%M:%S'))
+		    cl.sendText(op.param1,"「YOU HAVE UPDATED THE LINK OF THE GROUP」\n\n[⏰]  " +datetime.today().strftime('%H:%M:%S'))
 #===========================================
         if op.param3 == "1":
             if op.param1 in protectname:
