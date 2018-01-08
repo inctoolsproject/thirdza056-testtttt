@@ -6,79 +6,79 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,requests,urllib
 #import time,random,sys,json,codecs,threading,glob,re
 cl = LINETCR.LINE()
-cl.login(token="EoVO89FK9jZ25tALzFL5.0KR2p9yTfmo+J3gD/aW3rq.7sJOgr7wF6fdLxpwvfCh7Im8D6XzrirHdC6t0iQwGG8=")
+cl.login(token="EnVO89FK9jZ25tALzFL5.0KR2p9yTfmo+J3gD/aW3rq.7sJOgr7wF6fdLxpwvfCh7Im8D6XzrirHdC6t0iQwGG8=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="Eo1niLhJ6Q1xmXbhQGZc.HoR1JnsB+4qeb6VJ+e21Na.YtiAcKskFQ76877rgqIQxeF/lQv3a0FhgUHmX1vMoqk=")
+ki.login(token="En1niLhJ6Q1xmXbhQGZc.HoR1JnsB+4qeb6VJ+e21Na.YtiAcKskFQ76877rgqIQxeF/lQv3a0FhgUHmX1vMoqk=")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(token="EoiSakst6a8257VcXbe1.0yBG21qsxOytdiizPZNOOq.JlVNzkuNXDOHG4rb+UGj6WjLDtJ43ZvV2usCte/kFKY=")
+kk.login(token="EniSakst6a8257VcXbe1.0yBG21qsxOytdiizPZNOOq.JlVNzkuNXDOHG4rb+UGj6WjLDtJ43ZvV2usCte/kFKY=")
 kk.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(token="EoMYKLtAnYUEYH5fuLUa.TvetDTQOiFfoCjE8lx6qQG.avNTzEQ3Q2j8HgBzupma3evR/hsaHkdsTWF+p/sm2Jo=")
+kc.login(token="EnMYKLtAnYUEYH5fuLUa.TvetDTQOiFfoCjE8lx6qQG.avNTzEQ3Q2j8HgBzupma3evR/hsaHkdsTWF+p/sm2Jo=")
 kc.loginResult()
 
 kd = LINETCR.LINE()
-kd.login(token="EoSDTOj5yoCm51OEAmu3.k4Za5/UEgS3xASuSVtbn4W.tU4Xs/IdzSc0hSEGiaAMvHg0bZJ3to3AoK82D5AbL1w=")
+kd.login(token="EnSDTOj5yoCm51OEAmu3.k4Za5/UEgS3xASuSVtbn4W.tU4Xs/IdzSc0hSEGiaAMvHg0bZJ3to3AoK82D5AbL1w=")
 kd.loginResult()
 
 ke = LINETCR.LINE()
-ke.login(token="EogzBa3UsPCY15W391na.s/dq/M0GLZkiMLYg3XHlcG.1YuGhYjbT5h6n/Ah5I+c3qiQLREWgGpvq34E/tElDhI=")
+ke.login(token="EngzBa3UsPCY15W391na.s/dq/M0GLZkiMLYg3XHlcG.1YuGhYjbT5h6n/Ah5I+c3qiQLREWgGpvq34E/tElDhI=")
 ke.loginResult()
 
 kf = LINETCR.LINE()
-kf.login(token="EoKoyglJ9czSRvqLI4Y8.fKk7jKzQ5mzh1YnPidc0ga.geEVnKpgki6bS1vAtUA80jU7385bE0CXZ8Lecyskvss=")
+kf.login(token="EnKoyglJ9czSRvqLI4Y8.fKk7jKzQ5mzh1YnPidc0ga.geEVnKpgki6bS1vAtUA80jU7385bE0CXZ8Lecyskvss=")
 kf.loginResult()
 
 kg = LINETCR.LINE()
-kg.login(token="EojjldTdtw90MHXZja42.GEJaLf18HIrlmEJ3dKxw4G.HQngGBiARg824aAAceT5se/hpDb8zrI/FtL2qKX/FDc=")
+kg.login(token="EnjjldTdtw90MHXZja42.GEJaLf18HIrlmEJ3dKxw4G.HQngGBiARg824aAAceT5se/hpDb8zrI/FtL2qKX/FDc=")
 kg.loginResult()
 
 kh = LINETCR.LINE()
-kh.login(token="EoYXQMokK7oFR87rVVWb.R+TwP1t4enhkFeLLHqn0sW.A2qWv+eQyczoyi2gpEdizFp7bAvfTij0DQPXMDnMsis=")
+kh.login(token="EnYXQMokK7oFR87rVVWb.R+TwP1t4enhkFeLLHqn0sW.A2qWv+eQyczoyi2gpEdizFp7bAvfTij0DQPXMDnMsis=")
 kh.loginResult()
 
 kj = LINETCR.LINE()
-kj.login(token="EoTKTnZyyCj0ohpXqqh8.PHu9Jj2QfTEzOzCw7q5q/a.EcLJcYV+s8J9C+t7buGo4oWK4jG+1XXnysfDPOYC808=")
+kj.login(token="EnTKTnZyyCj0ohpXqqh8.PHu9Jj2QfTEzOzCw7q5q/a.EcLJcYV+s8J9C+t7buGo4oWK4jG+1XXnysfDPOYC808=")
 kj.loginResult()
 
 kl = LINETCR.LINE()
-kl.login(token="EoDK9oblGyVxk9W9rOL9.SToq+Adh7am3maMPFEVM/q.DeXZbr9ZD0AzG9XaZj+s9vtKnudtdl+CZHrqlJI7pJM=")
+kl.login(token="EnDK9oblGyVxk9W9rOL9.SToq+Adh7am3maMPFEVM/q.DeXZbr9ZD0AzG9XaZj+s9vtKnudtdl+CZHrqlJI7pJM=")
 kl.loginResult()
 
 km = LINETCR.LINE()
-km.login(token="EotgXquzDRP9pJpXZDS6.AEksypRHUUmnTL3iWKWpfG.BwWfzSCJeSjambuszXEC74+T8q7tfNlouj4OO8Pa2BQ=")
+km.login(token="EntgXquzDRP9pJpXZDS6.AEksypRHUUmnTL3iWKWpfG.BwWfzSCJeSjambuszXEC74+T8q7tfNlouj4OO8Pa2BQ=")
 km.loginResult()
 
 kn = LINETCR.LINE()
-kn.login(token="Eo2yQ1EQk9hsXMlCQus8.1vrheGCJ1zMYVolwEXtRca.QLv7WOGH/apBsfoETRrfsMQ0WtagfxaUJpKliIky6Zw=")
+kn.login(token="En2yQ1EQk9hsXMlCQus8.1vrheGCJ1zMYVolwEXtRca.QLv7WOGH/apBsfoETRrfsMQ0WtagfxaUJpKliIky6Zw=")
 kn.loginResult()
 
 ko = LINETCR.LINE()
-ko.login(token="EotkuhJZmnLTowCsfYt5.tPDsUdJZXvKPQOUc44Txrq.ckFssNQRmr8sQvm+MOkMFdE1ZUYIrSXGm+9XOgU+jnU=")
+ko.login(token="EntkuhJZmnLTowCsfYt5.tPDsUdJZXvKPQOUc44Txrq.ckFssNQRmr8sQvm+MOkMFdE1ZUYIrSXGm+9XOgU+jnU=")
 ko.loginResult()
 
 kp = LINETCR.LINE()
-kp.login(token="Eo2KwrGlPGwsYTqRXdX4.h3P92CCPLrvuZl+/sjgTHa.Ar9v/y0Kc2ZhNN6TWn7nLuBlPHXtA+bSd0xviSk/1yk=")
+kp.login(token="En2KwrGlPGwsYTqRXdX4.h3P92CCPLrvuZl+/sjgTHa.Ar9v/y0Kc2ZhNN6TWn7nLuBlPHXtA+bSd0xviSk/1yk=")
 kp.loginResult()
 
 kq = LINETCR.LINE()
-kq.login(token="EoJNB5Njj2tqJrVXwqJ6.UsifYkGV9oHJUs/icfEbvG.DbEYdNAcItCw5nPDwDZKWBmmzzc87MWm8+GJREO75tE=")
+kq.login(token="EnJNB5Njj2tqJrVXwqJ6.UsifYkGV9oHJUs/icfEbvG.DbEYdNAcItCw5nPDwDZKWBmmzzc87MWm8+GJREO75tE=")
 kq.loginResult()
 
 kr = LINETCR.LINE()
-kr.login(token="EozJOz2xjZmTsYtABTrd.xwjlUdZUsHbPU14aiaJY3q.H2Hg4alvCo/wl92DNc+5N2Q6HrelPStRnfdmA20cV54=")
+kr.login(token="EnzJOz2xjZmTsYtABTrd.xwjlUdZUsHbPU14aiaJY3q.H2Hg4alvCo/wl92DNc+5N2Q6HrelPStRnfdmA20cV54=")
 kr.loginResult()
 
 ks = LINETCR.LINE()
-ks.login(token="Eor9EzzAHvRl4foGDJ0e.ct061DsLt4s5sWUBOf6RtG.xQ5dMtBE5j0GMJsPvNBlq+iZZiYq1yPaIHXChbSxAXI=")
+ks.login(token="Enr9EzzAHvRl4foGDJ0e.ct061DsLt4s5sWUBOf6RtG.xQ5dMtBE5j0GMJsPvNBlq+iZZiYq1yPaIHXChbSxAXI=")
 ks.loginResult()
 
 kt = LINETCR.LINE()
-kt.login(token="EoldiwO8HSZl2viZXQE6.NSHJdVAVNV3B+BOz/wobHG.OVHcbkFYf7NThwLsuZHOOehixeDleHq+VpuRmv7IJ2g=")
+kt.login(token="EnldiwO8HSZl2viZXQE6.NSHJdVAVNV3B+BOz/wobHG.OVHcbkFYf7NThwLsuZHOOehixeDleHq+VpuRmv7IJ2g=")
 kt.loginResult()
 
 cl
@@ -2323,7 +2323,7 @@ def bot(op):
                 cl.like(url[25:58], url[66:], likeType=1001)
         if op.type == 25:
             msg = op.message
-            if msg.text.lower() in ["Man tagall"]:
+            if msg.text.lower() in ["Mention"]:
                 group = cl.getGroup(msg.to)
                 nama = [contact.mid for contact in group.members]
                 nm1, nm2, nm3, nm4, nm5, jml = [], [], [], [], [], len(nama)
@@ -2378,7 +2378,7 @@ def bot(op):
                 if jml > 500:
                     cl.sendText(msg.to,'Member melebihi batas.')
                 cnt = Message()
-                cnt.text = "Member List TAG number :  " + str(jml) +  "  Members \n\n\nနับთิஏთั้ଏบਹທ.. Sirichan V⒑\nรับเขียนบอทกันรัน แท๊กได้ทั้งกลุ่ม\nทักมาสอบถามรายละเอียดได้ครับ คลิ้กลิงก์\n📧https://line.me/R/ti/p/%40uvh1233u"
+                cnt.text = "Member List TAG number :  " + str(jml) +  "  Members"
                 cnt.to = msg.to
                 cl.sendMessage(cnt)
 
