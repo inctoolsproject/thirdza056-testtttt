@@ -9,27 +9,27 @@ import re,string,os
 import os.path,sys,urllib,shutil,subprocess,pickle
 
 cl = LINETCR.LINE()
-cl.login(token="EnVJbn0vWGuARiS48OO3.JIryx4z3ry1IZHDp9TRmGW.y1nwwxkTv4YJPLvoov2skupIP2I3tooIyAwyAQc5SUA=")
+cl.login(token="ใส่โทเค็น")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="Enpg8hS0Ah3vyFThcBx3.N/6o2oDgZge0ng439NllSW.dCoo/CjpD7uPxm8mtfnhCaLY6kDwNlZSrPJUcOC0pUc=")
+ki.login(token="ใส่โทเค็น k1")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(token="EnsJCEp0EgkVvpvVMCz9.sEpoFLrSynl1O4R/jK+r6q.wzV0eIpoON/x8V0YkXdNqZZ2AO01mygimZFaQ9Hl+BQ=")
+kk.login(token="ใส่โทเค็น k2")
 kk.loginResult()
 
 ks = LINETCR.LINE()
-ks.login(token="EnWhLWgvdNynPTN5vik0.Yqmbk3y5dGImDYSHbIO7ia.REJoe1ZpJhjnnXv4ngv+OtwUYLQN8V74Eunu68w3pso=")
+ks.login(token="ใส่โทเค็น k3")
 ks.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(token="EnIgWxtXGrEI9HL1YlK0.qTqJ/tcbW+c9xovbLqJnya.ePqI9MqhNoD269G3YQhdfEBLviySA5jaPrD0QKriwjM=")
+kc.login(token="ใส่โทเค็น k4")
 kc.loginResult()
 
 ka = LINETCR.LINE()
-ka.login(token="En2t3H7lc1iZM6YYKkpb.brg8qqR4cXfYLtnKj4/hgW.Hc4H5HWXrgiRoBVtm1SsVhkW62afIKjNlW63zUgliqA=")
+ka.login(token="ใส่โทเค็น k5")
 ka.loginResult()
 
 with open('profileSave.pkl') as f:
@@ -38,15 +38,18 @@ with open('profileSave.pkl') as f:
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
-helpMessage ="""☬̫̫A̫̫R̫̫T̫̫H̫̫U̫̫R̫̫☬̫ SELF BOT
-─┅═✥ᵀᴴᴬᴵᴸᴬᴺᴰ✥═┅─
-    [ᴛᴇᴀᴍ ᴛᴇ̲̅s̲̅ᴛ ʙᴏᴛ]
-╔══════════════════
+helpMessage ="""Mr. Bots…⛿
+╔══╦═╦═╗
+║║║║║║║║    ✯✯❇ᵀᴴᴬᴵᴸᴬᴺᴰ❇✯✯
+║║║║╦║║║ ❇͜͡C͜͡r͜͡e͜͡a͜͡t͜͡o͜͡r✯͜͡$͜͡ë͜͡I͜͡F͜͡-͜͡฿͜͡o͜͡Ŧ❇
+╚╩╩╩╩╩╩╝️ နับთิஏთั้ଏบਹທ SirichanV⒑
+📧https://line.me/R/ti/p/%40uvh1233u
+╔══════════════════════
 ║❂➣[Id]
 ║❂➣[Mid]
 ║❂➣[All mid]
 ║❂➣[Me]
-║❂➣[Me @]
+║❂➣[You @]
 ║❂➣[Mybot]
 ║❂➣[Name Bot (Text)]
 ║❂➣[Sendcontact]
@@ -87,9 +90,9 @@ helpMessage ="""☬̫̫A̫̫R̫̫T̫̫H̫̫U̫̫R̫̫☬̫ SELF BOT
 ║❂➣[Setpoint]
 ║❂➣[Setcheck]
 ║❂➣[Kick"@tag]]
-╠══════════════════
-║─┅═✥(sᴇᴛ)ᴄᴏᴍᴍᴀɴᴅ✥═┅─
-╠══════════════════
+╠══════════════════════
+║    ✥(sᴇᴛ)ᴄᴏᴍᴍᴀɴᴅ✥
+╠══════════════════════
 ║❂➣[Contact: on/off] 
 ║❂➣[Auto join: on/off] 
 ║❂➣[Cancel Invite: 1 on/off]
@@ -97,10 +100,10 @@ helpMessage ="""☬̫̫A̫̫R̫̫T̫̫H̫̫U̫̫R̫̫☬̫ SELF BOT
 ║❂➣[Auto leave: on/off] 
 ║❂➣[Comment: on/off]
 ║❂➣[Auto add: on/off]
-║❂➣[Auto like: on/off]║
-╠══════════════════
-║─┅═✥ᴄᴏᴍᴍᴀɴᴅ ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ✥═┅─
-╠══════════════════
+║❂➣[Auto like: on/off]
+╠══════════════════════
+║✥ᴄᴏᴍᴍᴀɴᴅ ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ✥
+╠══════════════════════
 ║❂➣[Ban"@Tag] 
 ║❂➣[Unban"@Tag] 
 ║❂➣[Urlon]:
@@ -113,18 +116,17 @@ helpMessage ="""☬̫̫A̫̫R̫̫T̫̫H̫̫U̫̫R̫̫☬̫ SELF BOT
 ║❂➣[Gn:"name"]:
 ║❂➣[NK @tag]:
 ║❂➣[Dead]
-╠══════════════════
-║•─✯͜͡ ᴀʀᴛʜᴜʀ★BOT
-╠══════════════════
-║line.me/ti/p/~art-bot-cyber01
-╚══════════════════
+╠══════════════════════
+║•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•
+╚══════════════════════
+    Message Protect  [Help2]
 """
-helpMessage2 ="""•─ ͜͡ᴛᴇᴀᴍ ᴛᴇsᴛ ʙᴏᴛ͜͡ ─•
+helpMessage2 ="""•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•
 ╔═══════════════════════
-║❂➣[PROTECT: ON/OFF]:
-║❂➣[BLOCK URL: ON/OFF]:
-║❂➣[NAMELOCK: ON/OFF]:
-║❂➣[BLOCKINVITE: ON/OFF]:
+║❂➣[PROTECT: ON/OFF]ชุดล็อกกลุ่ม
+║❂➣[BLOCK URL: ON/OFF] ล็อกลิงก์
+║❂➣[NAMELOCK: ON/OFF] ล็อกชื่อกลุ่ม
+║❂➣[BLOCKINVITE: ON/OFF]ล็อกเชิญ
 ╚═══════════════════════
 """
 KAC = [cl,ki,kk,ks,kc,ka]
@@ -134,7 +136,7 @@ kimid = kk.getProfile().mid
 ki2mid = ks.getProfile().mid
 Cmid = kc.getProfile().mid
 Emid = ka.getProfile().mid
-admin = ["u8e24585f8677458d62ce174ff6dacc83","uf291388a1ed2cb1a0864b84a7b6106a6"]
+admin = ["ud24af63fd62d14c3bf8f719df80c3745"]
 me = cl.getProfile().mid
 bot1 = cl.getProfile().mid
 main = cl.getProfile().mid
@@ -147,7 +149,7 @@ autocancel = {}
 autoinvite = []
 autoleaveroom = []
 
-admins = ["u8e24585f8677458d62ce174ff6dacc83"]
+admins = ["ud24af63fd62d14c3bf8f719df80c3745"]
 Rx5 = ["u406133ad4d3fbe50a2f4d51ea081d050"]
 Rx4 = ["u406133ad4d3fbe50a2f4d51ea081d050"]
 Rx3 = ["u406133ad4d3fbe50a2f4d51ea081d050"]
@@ -166,19 +168,17 @@ wait = {
     'leaveRoom':True,
     'timeline':True,
     'autoAdd':True,
-    'message':"""                 ღ¸.✻´`✻.¸¸ღ
-     ╔════♪•●♥●•♪════╗
-         ♝●❉•ARTHUR•❉●♝
-            ∮.♪•Self★Bot•♪.∮
-                 Add For me
-line.me/ti/p/~art-bot-cyber01
-     ╚════♪•●♥●•♪════╝
-Thank For Add Me
+    'message':"""──────┅═ই۝ई═┅──────
+နับთิஏთั้ଏบਹທ  Sirichan V⒑ ชุดบอทป้องกัน
+สนใจติดต่อที่  ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ
+http://line.me/ti/p/~1ove..neverdie
+──────┅═ই۝ई═┅──────
+Thank For Add Me  Creator Selfbot
 """,
     "lang":"JP",
-    "comment":"Auto like By.http://line.me/ti/p/~art-bot-cyber01☬",
-    "likeOn":False,
-    "commentOn":False,
+    "comment":"Auto like By.[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅] \n\nနับთิஏთั้ଏบਹທ  Sirichan V⒑ ชุดบอทป้องกัน\n📧https://line.me/R/ti/p/%40uvh1233u \n",
+    "likeOn":True,
+    "commentOn":True,
     "commentBlack":{},
     "wblack":False,
     "dblack":False,
