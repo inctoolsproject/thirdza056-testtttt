@@ -94,12 +94,13 @@ http://line.me/ti/p/~1ove..neverdie
 ❂͜͡☆➣ Man tagall •แท๊กสมาชิกทั้งกลุ่ม
 ❂͜͡☆➣ Mention แท๊กกลุ่ม
 ❂͜͡☆➣ Me / Contact ME
-❂͜͡☆➣ You @ contact YOU
+❂͜͡☆➣ You @ Contact YOU
+❂͜͡☆➣ My bot
 ❂͜͡☆➣ Id / Uid
 ❂͜͡☆➣ Mid / Mid @
 ❂͜͡☆➣ Mid all / All mid
 ❂͜͡☆➣ Gift / Gift all
-❂͜͡☆➣ Bot1-18 gift
+❂͜͡☆➣ Bot1-18 Gift
 ❂͜͡☆➣ Gift you @
 ❂͜͡☆➣ Cn: Display Name
 ❂͜͡☆➣ Cc: Clock Name
@@ -2385,7 +2386,7 @@ def bot(op):
                 cnt.to = msg.to
                 cl.sendMessage(cnt)
 
-                if op.type == 25:
+        if op.type == 25:
             msg = op.message
             if msg.text.lower() in ["man tagall"]:
                 group = cl.getGroup(msg.to)
@@ -2594,7 +2595,7 @@ def bot(op):
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': msg.to}
                 cl.sendMessage(msg)
-            elif msg.text.lower() == 'hack bot':
+            elif msg.text.lower() == 'my bot':
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': Amid}
                 cl.sendMessage(msg)
@@ -3614,14 +3615,14 @@ http://line.me/ti/p/~1ove..neverdie
 ──────┅═ই۝ई═┅──────
 """)
 
-            elif msg.text.lower() == 'ยกเลิก1':
+            elif msg.text.lower() == 'Cancel':
                 if msg.toType == 2:
                     group = cl.getGroup(msg.to)
                     gMembMids = [contact.mid for contact in group.invitee]
                     for _mid in gMembMids:
                         cl.cancelGroupInvitation(msg.to,[_mid])
                     cl.sendText(msg.to,"I pretended to cancel and canceled(๑و•̀ω•́)و")
-            elif msg.text.lower() == 'บอทยกเลิก1':
+            elif msg.text.lower() == 'Bcancel':
                 if msg.toType == 2:
                     group = cl.getGroup(msg.to)
                     gMembMids = [contact.mid for contact in group.invitee]
@@ -3631,9 +3632,9 @@ http://line.me/ti/p/~1ove..neverdie
                     ki.sendText(msg.to,"I pretended to cancel and canceled(๑و•̀ω•́)و")
                     cl.sendText(msg.to,"I pretended to cancel and canceled(๑و•̀ω•́)و")
 
-            elif "Me @" in msg.text:
+            elif "You @" in msg.text:
                 msg.contentType = 13
-                _name = msg.text.replace("Me @","")
+                _name = msg.text.replace("You @","")
                 _nametarget = _name.rstrip(' ')
                 gs = cl.getGroup(msg.to)
                 for g in gs.members:
@@ -3668,7 +3669,7 @@ http://line.me/ti/p/~1ove..neverdie
                           u = "[ปิด]"
                         else:
                             u = "[เปิด]"
-                        cl.sendText(msg.to,"[ชื่อของกลุ่ม]:\n" + str(ginfo.name) + "\n[Gid]:\n" + msg.to + "\n[ผู้สร้างกลุ่ม:]\n" + gCreator + "\n[ลิ้งค์รูปกลุ่ม]:\nhttp://dl.profile.line.naver.jp/" + ginfo.pictureStatus + "\n[จำนวนสมาชิก]:" + str(len(ginfo.members)) + "คน\n[จำนวนค้างเชิญ]:" + sinvitee + "คน\n[สถานะลิ้งค์]:" + u + "URL \n[By: •─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•]")
+                        cl.sendText(msg.to,"[ชื่อของกลุ่ม]:\n" + str(ginfo.name) + "\n[Gid]:\n" + msg.to + "\n[ผู้สร้างกลุ่ม:]\n" + gCreator + "\n[ลิ้งค์รูปกลุ่ม]:\nhttp://dl.profile.line.naver.jp/" + ginfo.pictureStatus + "\n[จำนวนสมาชิก]:" + str(len(ginfo.members)) + "คน\n[จำนวนค้างเชิญ]:" + sinvitee + "คน\n[สถานะลิ้งค์]:" + u + "URL \n[By : •─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•]")
                     else:
                         cl.sendText(msg.to,"Nama Gourp:\n" + str(ginfo.name) + "\nGid:\n" + msg.to + "\nCreator:\n" + gCreator + "\nProfile:\nhttp://dl.profile.line.naver.jp/" + ginfo.pictureStatus)
                 else:
