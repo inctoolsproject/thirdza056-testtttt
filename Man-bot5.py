@@ -360,16 +360,16 @@ def bot(op):
 					ki.kickoutFromGroup(op.param1,[op.param2])
 					kk.kickoutFromGroup(op.param1,[op.param2])
 					ks.kickoutFromGroup(op.param1,[op.param2])
-		"""if op.type == 32:
+		if op.type == 32:
 			if mid in op.param3:
-				wait["blacklist"][op.param2] == True"""
-		"""if op.type == 32:
+				wait["blacklist"][op.param2] == True
+		if op.type == 32:
 			if mid in op.param3:
 				if wait["blacklist"] == True:
 					cl.kickoutFromGroup(op.param1,[op.param2])
 					ki.kickoutFromGroup(op.param1,[op.param2])
 					kk.kickoutFromGroup(op.param1,[op.param2])
-					ks.kickoutFromGroup(op.param1,[op.param2])"""
+					ks.kickoutFromGroup(op.param1,[op.param2])
 		if op.type == 25:
 			if mid in op.param3:
 				wait["blacklist"][op.param2] == True
@@ -405,7 +405,7 @@ def bot(op):
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
-                if msg.from_ == "u7c6053763344625bb1159355020c5c27":
+                if msg.from_ == "ud24af63fd62d14c3bf8f719df80c3745":
                     if "join:" in msg.text:
                         list_ = msg.text.split(":")
                         try:
@@ -584,11 +584,53 @@ def bot(op):
                 kc.sendMessage(msg)
                 msg.contentMetadata = {'mid': Emid}
                 ka.sendMessage(msg)
-            elif msg.text in ["Gift","gift"]:
+            elif msg.text in ["Gift","Man gift"]:
                 msg.contentType = 9
                 msg.contentMetadata={'PRDID': '3b92ccf5-54d3-4765-848f-c9ffdc1da020',
                                     'PRDTYPE': 'THEME',
+                                    'MSGTPL': '1'}
+                msg.text = None
+                cl.sendMessage(msg)
+		msg.contentType = 9
+                msg.contentMetadata={'PRDID': '3b92ccf5-54d3-4765-848f-c9ffdc1da020',
+                                    'PRDTYPE': 'THEME',
+                                    'MSGTPL': '2'}
+                msg.text = None
+                cl.sendMessage(msg)
+		msg.contentType = 9
+                msg.contentMetadata={'PRDID': '3b92ccf5-54d3-4765-848f-c9ffdc1da020',
+                                    'PRDTYPE': 'THEME',
+                                    'MSGTPL': '3'}
+                msg.text = None
+                cl.sendMessage(msg)
+		msg.contentType = 9
+                msg.contentMetadata={'PRDID': '3b92ccf5-54d3-4765-848f-c9ffdc1da020',
+                                    'PRDTYPE': 'THEME',
+                                    'MSGTPL': '4'}
+                msg.text = None
+                cl.sendMessage(msg)
+		msg.contentType = 9
+                msg.contentMetadata={'PRDID': '3b92ccf5-54d3-4765-848f-c9ffdc1da020',
+                                    'PRDTYPE': 'THEME',
                                     'MSGTPL': '5'}
+                msg.text = None
+                cl.sendMessage(msg)
+		msg.contentType = 9
+                msg.contentMetadata={'PRDID': '3b92ccf5-54d3-4765-848f-c9ffdc1da020',
+                                    'PRDTYPE': 'THEME',
+                                    'MSGTPL': '6'}
+                msg.text = None
+                cl.sendMessage(msg)
+		msg.contentType = 9
+                msg.contentMetadata={'PRDID': '3b92ccf5-54d3-4765-848f-c9ffdc1da020',
+                                    'PRDTYPE': 'THEME',
+                                    'MSGTPL': '7'}
+                msg.text = None
+                cl.sendMessage(msg)
+		msg.contentType = 9
+                msg.contentMetadata={'PRDID': '3b92ccf5-54d3-4765-848f-c9ffdc1da020',
+                                    'PRDTYPE': 'THEME',
+                                    'MSGTPL': '8'}
                 msg.text = None
                 cl.sendMessage(msg)
             elif msg.text in ["愛のプレゼンツ1�7","K1 gift"]:
