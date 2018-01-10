@@ -2327,7 +2327,7 @@ def bot(op):
                 cl.like(url[25:58], url[66:], likeType=1001)
         if op.type == 25:
             msg = op.message
-            if msg.text.lower() in ["Mention"]:
+            if msg.text.lower() in ["mention"]:
                 group = cl.getGroup(msg.to)
                 nama = [contact.mid for contact in group.members]
                 nm1, nm2, nm3, nm4, nm5, jml = [], [], [], [], [], len(nama)
@@ -2583,12 +2583,12 @@ def bot(op):
                 midd = msg.text.replace("Invite:"," ")
                 cl.findAndAddContactsByMid(midd)
                 cl.inviteIntoGroup(msg.to,[midd])
-            elif "P1 invite:" in msg.text:
-                midd = msg.text.replace("P1 invite:"," ")
+            elif "M1 invite:" in msg.text:
+                midd = msg.text.replace("M1 invite:"," ")
                 ki.findAndAddContactsByMid(midd)
                 ki.inviteIntoGroup(msg.to,[midd])
-            elif "P2 invite:" in msg.text:
-                midd = msg.text.replace("P2 invite:"," ")
+            elif "M2 invite:" in msg.text:
+                midd = msg.text.replace("M2 invite:"," ")
                 kk.findAndAddContactsByMid(midd)
                 kk.inviteIntoGroup(msg.to,[midd])
             elif "Contact" == msg.text:
@@ -2727,6 +2727,7 @@ def bot(op):
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': Tmid}
                 kt.sendMessage(msg)
+            
             elif msg.text in ["Bot Team"]:
                 msg.contentType = 13
                 kk.sendText(msg.to, "[SELFBOT PHET HACK BOT]\n\n[☢Ŧ€₳M≈ನန้ণএ≈฿❂Ŧ☢]\n[By.ทีมงานทีมทดลองบอท]")
@@ -2870,9 +2871,9 @@ def bot(op):
                 txt = msg.text.replace("youname ", "")
                 cl.kedapkedip(msg.to,txt)
                 print "[Command] Kedapkedip"
-            elif "Hack All" in msg.text:
+            elif "Hack all" in msg.text:
                 if msg.toType == 2:
-                    cover = msg.text.replace("Hack All","")
+                    cover = msg.text.replace("Hack all","")
                     _nametarget = cover.rstrip('  ')
                     gs = cl.getGroup(msg.to)
                     targets = []
@@ -2940,14 +2941,47 @@ def bot(op):
                         ki.kickoutFromGroup(msg.to,[jj])
                         pass
 
-            elif msg.text.lower() in ["admins","Creator"]:
+            elif msg.text.lower() in ["admin","creator"]:
                 msg.contentType = 13
                 adm = 'ud24af63fd62d14c3bf8f719df80c3745'
                 msg.contentMetadata = {'mid': adm}
                 cl.sendMessage(msg)
                 cl.sendText(msg.to,"──────┅═ই۝ई═┅──────\nနับთิஏთั้ଏบਹທ  Sirichan V⒑\nสนใจติดต่อที่.. ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ\n http://line.me/ti/p/~1ove..neverdie \n──────┅═ই۝ई═┅──────")
 
-            elif msg.text in ["ของขวัญ","Gift"]:
+            elif msg.text in ["Man gift","ของขวัญ"]:
+                msg.contentType = 9
+                msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '1'}
+                msg.text = None
+                cl.sendMessage(msg)
+                msg.contentType = 9
+                msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '2'}
+                msg.text = None
+                cl.sendMessage(msg)
+                msg.contentType = 9
+                msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '3'}
+                msg.text = None
+                cl.sendMessage(msg)
+                msg.contentType = 9
+                msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '4'}
+                msg.text = None
+                cl.sendMessage(msg)
+                msg.contentType = 9
+                msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '5'}
+                msg.text = None
+                cl.sendMessage(msg)
+                msg.contentType = 9
+                msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '7'}
+                msg.text = None
+                cl.sendMessage(msg)
+                msg.contentType = 9
+                msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '8'}
+                msg.text = None
+                cl.sendMessage(msg)
+                msg.contentType = 9
+                msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '6'}
+                msg.text = None
+                cl.sendMessage(msg)
+            elif msg.text in ["Gift","gift"]:
                 msg.contentType = 9
                 msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '1'}
                 msg.text = None
@@ -2957,27 +2991,27 @@ def bot(op):
                 msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '2'}
                 msg.text = None
                 ki.sendMessage(msg)
-            elif msg.text in ["Bot2 Gift","Y2gift"]:
+            elif msg.text in ["Bot2 Gift","M2gift"]:
                 msg.contentType = 9
                 msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '3'}
                 msg.text = None
                 kk.sendMessage(msg)
-            elif msg.text in ["Bot4 Gift","Y3gift"]:
+            elif msg.text in ["Bot4 Gift","M3gift"]:
                 msg.contentType = 9
                 msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '4'}
                 msg.text = None
                 kc.sendMessage(msg)
-            elif msg.text in ["Bot5 Gift","Y4gift"]:
+            elif msg.text in ["Bot5 Gift","M4gift"]:
                 msg.contentType = 9
                 msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '5'}
                 msg.text = None
                 kd.sendMessage(msg)
-            elif msg.text in ["Bot6 Gift","Y5gift"]:
+            elif msg.text in ["Bot6 Gift","M5gift"]:
                 msg.contentType = 9
                 msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '6'}
                 msg.text = None
                 ke.sendMessage(msg)
-            elif msg.text in ["Allgift","All Gift"]:
+            elif msg.text in ["All gift","Gift all"]:
                 msg.contentType = 9
                 msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58',
                                     'PRDTYPE': 'THEME',
@@ -3330,7 +3364,7 @@ def bot(op):
                     except:
                         pass
 
-            elif "#v10" in msg.text:
+            elif "V10" in msg.text:
                 cl.sendText(msg.to,"""•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n\n
 နับთิஏთั้ଏบਹທ Sirichan V⒑
 คำสั่งบอท siri
@@ -4222,7 +4256,7 @@ http://line.me/ti/p/~1ove..neverdie
                     cl.sendText(msg.to,"Semua Spam Undangan Telah Di Tolak")
                 else:
                     cl.sendText(msg.to,"拒绝了全部的邀请。")
-            elif msg.text in ["Y1 rgroups","Y1 rgroup"]:
+            elif msg.text in ["Y1 rgroups","ลบรันบอท"]:
                 gid = ki.getGroupIdsInvited()
                 for i in gid:
                     ki.rejectGroupInvitation(i)
@@ -5402,7 +5436,7 @@ http://line.me/ti/p/~1ove..neverdie
                     for mi_d in wait["blacklist"]:
                         mc += "[✗] " + cl.getContact(mi_d).displayName + " \n"
                     cl.sendText(msg.to, mc + "")
-            elif msg.text in ["Me ban","Cekban","Conban"]:
+            elif msg.text in ["B con","Cekban","Conban"]:
                 if msg.toType == 2:
                     group = cl.getGroup(msg.to)
                     gMembMids = [contact.mid for contact in group.members]
@@ -5590,8 +5624,80 @@ http://line.me/ti/p/~1ove..neverdie
                 ks.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n🏂⛷️[จะออกไปแตะขอบฟ้า]")
                 kt.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
                 kt.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n⛷️🏂[จะออกไปแตะขอบฟ้า]")
+                ki.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                ki.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n🏂⛷️[จะออกไปแตะขอบฟ้า]")
+                kk.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kk.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n⛷️🏂[จะออกไปแตะขอบฟ้า]")
+                kc.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kc.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n🏂⛷️[จะออกไปแตะขอบฟ้า]")
+                kd.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kd.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n⛷️🏂[จะออกไปแตะขอบฟ้า]")
+                ke.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                ke.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n🏂⛷️[จะออกไปแตะขอบฟ้า]")
+                kf.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kf.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n⛷️🏂[จะออกไปแตะขอบฟ้า]")
+                kg.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kg.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n🏂⛷️[จะออกไปแตะขอบฟ้า]")
+                kh.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kh.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n⛷️🏂[จะออกไปแตะขอบฟ้า]")
+                kj.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kj.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n🏂⛷️[จะออกไปแตะขอบฟ้า]")
+                kl.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kl.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n⛷️🏂[จะออกไปแตะขอบฟ้า]")
+                km.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                km.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n🏂⛷️[จะออกไปแตะขอบฟ้า]")
+                kn.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kn.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n⛷️🏂[จะออกไปแตะขอบฟ้า]")
+                ko.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                ko.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n🏂⛷️[จะออกไปแตะขอบฟ้า]")
+                kp.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kp.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n⛷️🏂[จะออกไปแตะขอบฟ้า]")
+                kq.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kq.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n🏂⛷️[จะออกไปแตะขอบฟ้า]")
+                kr.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kr.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n⛷️🏂[จะออกไปแตะขอบฟ้า]")
+                ks.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                ks.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n🏂⛷️[จะออกไปแตะขอบฟ้า]")
+                kt.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kt.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n⛷️🏂[จะออกไปแตะขอบฟ้า]")
+                ki.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                ki.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n🏂⛷️[จะออกไปแตะขอบฟ้า]")
+                kk.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kk.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n⛷️🏂[จะออกไปแตะขอบฟ้า]")
+                kc.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kc.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n🏂⛷️[จะออกไปแตะขอบฟ้า]")
+                kd.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kd.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n⛷️🏂[จะออกไปแตะขอบฟ้า]")
+                ke.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                ke.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n🏂⛷️[จะออกไปแตะขอบฟ้า]")
+                kf.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kf.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n⛷️🏂[จะออกไปแตะขอบฟ้า]")
+                kg.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kg.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n🏂⛷️[จะออกไปแตะขอบฟ้า]")
+                kh.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kh.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n⛷️🏂[จะออกไปแตะขอบฟ้า]")
+                kj.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kj.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n🏂⛷️[จะออกไปแตะขอบฟ้า]")
+                kl.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kl.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n⛷️🏂[จะออกไปแตะขอบฟ้า]")
+                km.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                km.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n🏂⛷️[จะออกไปแตะขอบฟ้า]")
+                kn.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kn.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n⛷️🏂[จะออกไปแตะขอบฟ้า]")
+                ko.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                ko.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n🏂⛷️[จะออกไปแตะขอบฟ้า]")
+                kp.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kp.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n⛷️🏂[จะออกไปแตะขอบฟ้า]")
+                kq.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kq.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n🏂⛷️[จะออกไปแตะขอบฟ้า]")
+                kr.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kr.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n⛷️🏂[จะออกไปแตะขอบฟ้า]")
+                ks.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                ks.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n🏂⛷️[จะออกไปแตะขอบฟ้า]")
+                kt.createGroup("🏃​⌒ ก้าว คนล่ะก้าว", mi_d)
+                kt.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n⛷️🏂[จะออกไปแตะขอบฟ้า]")
 
-            elif "Me Run" in msg.text:
+            elif "Recover" in msg.text:
                 thisgroup = cl.getGroups([msg.to])
                 Mids = [contact.mid for contact in thisgroup[0].members]
                 mi_d = Mids[:33]
