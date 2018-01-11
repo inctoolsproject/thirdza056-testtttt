@@ -6,80 +6,80 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,requests,urllib
 #import time,random,sys,json,codecs,threading,glob,re
 cl = LINETCR.LINE()
-cl.login(token="EnVO89FK9jZ25tALzFL5.0KR2p9yTfmo+J3gD/aW3rq.7sJOgr7wF6fdLxpwvfCh7Im8D6XzrirHdC6t0iQwGG8=")
+cl.login(token="EowK2MPc2EiSBW3Ax1D8.6S7B6iV24SxpyyIZPkjUga.fam88/AOpNCZ4kjqqcArFQtBX9Y9OREivKPvr7GuMCI=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="En1niLhJ6Q1xmXbhQGZc.HoR1JnsB+4qeb6VJ+e21Na.YtiAcKskFQ76877rgqIQxeF/lQv3a0FhgUHmX1vMoqk=")
+ki.login(token="EorGo0K0OnSUOy7J6eE0.wO8FExqopCH2OtQ39ZGtqa.zu5Wupv7idOpJdLZ5Wo47RI+VchdLIbzJDJ+0vYMR8c=")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(token="EniSakst6a8257VcXbe1.0yBG21qsxOytdiizPZNOOq.JlVNzkuNXDOHG4rb+UGj6WjLDtJ43ZvV2usCte/kFKY=")
+kk.login(token="EofwBij5qcnhykWgtwC8.Y2rawCeX0fURueP0mx/hoa.DMFw/SRfAZGmmeh0jz+4gLNsx56ecjW4HsdFjTgiHwY=")
 kk.loginResult()
 
-kc = LINETCR.LINE()
-kc.login(token="EnMYKLtAnYUEYH5fuLUa.TvetDTQOiFfoCjE8lx6qQG.avNTzEQ3Q2j8HgBzupma3evR/hsaHkdsTWF+p/sm2Jo=")
-kc.loginResult()
+#kc = LINETCR.LINE()
+#kc.login(token="EnMYKLtAnYUEYH5fuLUa.TvetDTQOiFfoCjE8lx6qQG.avNTzEQ3Q2j8HgBzupma3evR/hsaHkdsTWF+p/sm2Jo=")
+#kc.loginResult()
 
-kd = LINETCR.LINE()
-kd.login(token="EnSDTOj5yoCm51OEAmu3.k4Za5/UEgS3xASuSVtbn4W.tU4Xs/IdzSc0hSEGiaAMvHg0bZJ3to3AoK82D5AbL1w=")
-kd.loginResult()
+#kd = LINETCR.LINE()
+#kd.login(token="EnSDTOj5yoCm51OEAmu3.k4Za5/UEgS3xASuSVtbn4W.tU4Xs/IdzSc0hSEGiaAMvHg0bZJ3to3AoK82D5AbL1w=")
+#kd.loginResult()
 
-ke = LINETCR.LINE()
-ke.login(token="EngzBa3UsPCY15W391na.s/dq/M0GLZkiMLYg3XHlcG.1YuGhYjbT5h6n/Ah5I+c3qiQLREWgGpvq34E/tElDhI=")
-ke.loginResult()
+#ke = LINETCR.LINE()
+#ke.login(token="EngzBa3UsPCY15W391na.s/dq/M0GLZkiMLYg3XHlcG.1YuGhYjbT5h6n/Ah5I+c3qiQLREWgGpvq34E/tElDhI=")
+#ke.loginResult()
 
-kf = LINETCR.LINE()
-kf.login(token="EnKoyglJ9czSRvqLI4Y8.fKk7jKzQ5mzh1YnPidc0ga.geEVnKpgki6bS1vAtUA80jU7385bE0CXZ8Lecyskvss=")
-kf.loginResult()
+#kf = LINETCR.LINE()
+#.login(token="EnKoyglJ9czSRvqLI4Y8.fKk7jKzQ5mzh1YnPidc0ga.geEVnKpgki6bS1vAtUA80jU7385bE0CXZ8Lecyskvss=")
+#kf.loginResult()
 
-kg = LINETCR.LINE()
-kg.login(token="EnjjldTdtw90MHXZja42.GEJaLf18HIrlmEJ3dKxw4G.HQngGBiARg824aAAceT5se/hpDb8zrI/FtL2qKX/FDc=")
-kg.loginResult()
+#kg = LINETCR.LINE()
+#kg.login(token="EnjjldTdtw90MHXZja42.GEJaLf18HIrlmEJ3dKxw4G.HQngGBiARg824aAAceT5se/hpDb8zrI/FtL2qKX/FDc=")
+#kg.loginResult()
 
-kh = LINETCR.LINE()
-kh.login(token="EnYXQMokK7oFR87rVVWb.R+TwP1t4enhkFeLLHqn0sW.A2qWv+eQyczoyi2gpEdizFp7bAvfTij0DQPXMDnMsis=")
-kh.loginResult()
+#kh = LINETCR.LINE()
+#kh.login(token="EnYXQMokK7oFR87rVVWb.R+TwP1t4enhkFeLLHqn0sW.A2qWv+eQyczoyi2gpEdizFp7bAvfTij0DQPXMDnMsis=")
+#kh.loginResult()
 
-kj = LINETCR.LINE()
-kj.login(token="EnTKTnZyyCj0ohpXqqh8.PHu9Jj2QfTEzOzCw7q5q/a.EcLJcYV+s8J9C+t7buGo4oWK4jG+1XXnysfDPOYC808=")
-kj.loginResult()
+#kj = LINETCR.LINE()
+#kj.login(token="EnTKTnZyyCj0ohpXqqh8.PHu9Jj2QfTEzOzCw7q5q/a.EcLJcYV+s8J9C+t7buGo4oWK4jG+1XXnysfDPOYC808=")
+#kj.loginResult()
 
-kl = LINETCR.LINE()
-kl.login(token="EnDK9oblGyVxk9W9rOL9.SToq+Adh7am3maMPFEVM/q.DeXZbr9ZD0AzG9XaZj+s9vtKnudtdl+CZHrqlJI7pJM=")
-kl.loginResult()
+#kl = LINETCR.LINE()
+#kl.login(token="EnDK9oblGyVxk9W9rOL9.SToq+Adh7am3maMPFEVM/q.DeXZbr9ZD0AzG9XaZj+s9vtKnudtdl+CZHrqlJI7pJM=")
+#kl.loginResult()
 
-km = LINETCR.LINE()
-km.login(token="EntgXquzDRP9pJpXZDS6.AEksypRHUUmnTL3iWKWpfG.BwWfzSCJeSjambuszXEC74+T8q7tfNlouj4OO8Pa2BQ=")
-km.loginResult()
+#km = LINETCR.LINE()
+#km.login(token="EntgXquzDRP9pJpXZDS6.AEksypRHUUmnTL3iWKWpfG.BwWfzSCJeSjambuszXEC74+T8q7tfNlouj4OO8Pa2BQ=")
+#km.loginResult()
 
-kn = LINETCR.LINE()
-kn.login(token="En2yQ1EQk9hsXMlCQus8.1vrheGCJ1zMYVolwEXtRca.QLv7WOGH/apBsfoETRrfsMQ0WtagfxaUJpKliIky6Zw=")
-kn.loginResult()
+#kn = LINETCR.LINE()
+#kn.login(token="En2yQ1EQk9hsXMlCQus8.1vrheGCJ1zMYVolwEXtRca.QLv7WOGH/apBsfoETRrfsMQ0WtagfxaUJpKliIky6Zw=")
+#kn.loginResult()
 
-ko = LINETCR.LINE()
-ko.login(token="EntkuhJZmnLTowCsfYt5.tPDsUdJZXvKPQOUc44Txrq.ckFssNQRmr8sQvm+MOkMFdE1ZUYIrSXGm+9XOgU+jnU=")
-ko.loginResult()
+#ko = LINETCR.LINE()
+#ko.login(token="EntkuhJZmnLTowCsfYt5.tPDsUdJZXvKPQOUc44Txrq.ckFssNQRmr8sQvm+MOkMFdE1ZUYIrSXGm+9XOgU+jnU=")
+#ko.loginResult()
 
-kp = LINETCR.LINE()
-kp.login(token="En2KwrGlPGwsYTqRXdX4.h3P92CCPLrvuZl+/sjgTHa.Ar9v/y0Kc2ZhNN6TWn7nLuBlPHXtA+bSd0xviSk/1yk=")
-kp.loginResult()
+#kp = LINETCR.LINE()
+#kp.login(token="En2KwrGlPGwsYTqRXdX4.h3P92CCPLrvuZl+/sjgTHa.Ar9v/y0Kc2ZhNN6TWn7nLuBlPHXtA+bSd0xviSk/1yk=")
+#kp.loginResult()
 
-kq = LINETCR.LINE()
-kq.login(token="EnJNB5Njj2tqJrVXwqJ6.UsifYkGV9oHJUs/icfEbvG.DbEYdNAcItCw5nPDwDZKWBmmzzc87MWm8+GJREO75tE=")
-kq.loginResult()
+#kq = LINETCR.LINE()
+#kq.login(token="EnJNB5Njj2tqJrVXwqJ6.UsifYkGV9oHJUs/icfEbvG.DbEYdNAcItCw5nPDwDZKWBmmzzc87MWm8+GJREO75tE=")
+#kq.loginResult()
 
-kr = LINETCR.LINE()
-kr.login(token="EnzJOz2xjZmTsYtABTrd.xwjlUdZUsHbPU14aiaJY3q.H2Hg4alvCo/wl92DNc+5N2Q6HrelPStRnfdmA20cV54=")
-kr.loginResult()
+#kr = LINETCR.LINE()
+#kr.login(token="EnzJOz2xjZmTsYtABTrd.xwjlUdZUsHbPU14aiaJY3q.H2Hg4alvCo/wl92DNc+5N2Q6HrelPStRnfdmA20cV54=")
+#kr.loginResult()
 
-ks = LINETCR.LINE()
-ks.login(token="Enr9EzzAHvRl4foGDJ0e.ct061DsLt4s5sWUBOf6RtG.xQ5dMtBE5j0GMJsPvNBlq+iZZiYq1yPaIHXChbSxAXI=")
-ks.loginResult()
+#ks = LINETCR.LINE()
+#ks.login(token="Enr9EzzAHvRl4foGDJ0e.ct061DsLt4s5sWUBOf6RtG.xQ5dMtBE5j0GMJsPvNBlq+iZZiYq1yPaIHXChbSxAXI=")
+#ks.loginResult()
 
-kt = LINETCR.LINE()
-kt.login(token="EnldiwO8HSZl2viZXQE6.NSHJdVAVNV3B+BOz/wobHG.OVHcbkFYf7NThwLsuZHOOehixeDleHq+VpuRmv7IJ2g=")
-kt.loginResult()
+#kt = LINETCR.LINE()
+#kt.login(token="EnldiwO8HSZl2viZXQE6.NSHJdVAVNV3B+BOz/wobHG.OVHcbkFYf7NThwLsuZHOOehixeDleHq+VpuRmv7IJ2g=")
+#kt.loginResult()
 
 cl
 
@@ -244,26 +244,26 @@ helpMessage2 ="""╔════════════════════
 ╚═════════════════════╝
 """
 
-KAC=[cl,ki,kk,kc,kd,ke,kf,kg,kh,kj,kl,km,kn,ko,kp,kq,kr,ks,kt]
+KAC=[cl,ki,kk]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
-Cmid = kc.getProfile().mid
-Dmid = kd.getProfile().mid
-Emid = ke.getProfile().mid
-Fmid = kf.getProfile().mid
-Gmid = kg.getProfile().mid
-Hmid = kh.getProfile().mid
-Jmid = kj.getProfile().mid
-Lmid = kl.getProfile().mid
-Mmid = km.getProfile().mid
-Nmid = kn.getProfile().mid
-Omid = ko.getProfile().mid
-Pmid = kp.getProfile().mid
-Qmid = kq.getProfile().mid
-Rmid = kr.getProfile().mid
-Smid = ks.getProfile().mid
-Tmid = kt.getProfile().mid
+#Cmid = kc.getProfile().mid
+#Dmid = kd.getProfile().mid
+#Emid = ke.getProfile().mid
+#Fmid = kf.getProfile().mid
+#Gmid = kg.getProfile().mid
+#Hmid = kh.getProfile().mid
+#Jmid = kj.getProfile().mid
+#Lmid = kl.getProfile().mid
+#Mmid = km.getProfile().mid
+#Nmid = kn.getProfile().mid
+#Omid = ko.getProfile().mid
+#Pmid = kp.getProfile().mid
+#Qmid = kq.getProfile().mid
+#Rmid = kr.getProfile().mid
+#Smid = ks.getProfile().mid
+#Tmid = kt.getProfile().mid
 protectname = []
 protecturl = []
 protection = []
@@ -271,12 +271,12 @@ autocancel = {}
 autoinvite = []
 autoleaveroom = []
 targets = []
-Bots = ["ud24af63fd62d14c3bf8f719df80c3745",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
-self = ["ud24af63fd62d14c3bf8f719df80c3745",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
-admin = "ud24af63fd62d14c3bf8f719df80c3745"
-owner = "ud24af63fd62d14c3bf8f719df80c3745"
-admsa = "ud24af63fd62d14c3bf8f719df80c3745"
-adminMID = "ud24af63fd62d14c3bf8f719df80c3745"
+Bots = ["ueacedbe88bf6e2c5cf6188b3a4a26e18",mid,Amid,Bmid]
+self = ["ueacedbe88bf6e2c5cf6188b3a4a26e18",mid,Amid,Bmid]
+admin = "ueacedbe88bf6e2c5cf6188b3a4a26e18"
+owner = "ueacedbe88bf6e2c5cf6188b3a4a26e18"
+admsa = "ueacedbe88bf6e2c5cf6188b3a4a26e18"
+adminMID = "ueacedbe88bf6e2c5cf6188b3a4a26e18"
 wait = {
     'contact':False,
     'autoJoin':False,
@@ -344,101 +344,101 @@ backup.displayName = contact.displayName
 backup.statusMessage = contact.statusMessage
 backup.pictureStatus = contact.pictureStatus
 
-contact = kc.getProfile()
-backup = kc.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = kc.getProfile()
+#backup = kc.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = kd.getProfile()
-backup = kd.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = kd.getProfile()
+#backup = kd.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = ke.getProfile()
-backup = ke.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = ke.getProfile()
+#backup = ke.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = kf.getProfile()
-backup = kf.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = kf.getProfile()
+#backup = kf.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = kg.getProfile()
-backup = kg.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = kg.getProfile()
+#backup = kg.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = kh.getProfile()
-backup = kh.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = kh.getProfile()
+#backup = kh.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = kj.getProfile()
-backup = kj.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = kj.getProfile()
+#backup = kj.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = kl.getProfile()
-backup = kl.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = kl.getProfile()
+#backup = kl.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = km.getProfile()
-backup = km.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = km.getProfile()
+#backup = km.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = kn.getProfile()
-backup = kn.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = kn.getProfile()
+#backup = kn.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = ko.getProfile()
-backup = ko.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = ko.getProfile()
+#backup = ko.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = kp.getProfile()
-backup = kp.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = kp.getProfile()
+#backup = kp.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = kq.getProfile()
-backup = kq.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = kq.getProfile()
+#backup = kq.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = kr.getProfile()
-backup = kr.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = kr.getProfile()
+#backup = kr.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = ks.getProfile()
-backup = ks.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = ks.getProfile()
+#backup = ks.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = kt.getProfile()
-backup = kt.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = kt.getProfile()
+#backup = kt.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
 def cms(string, commands): #/XXX, >XXX, ;XXX, ^XXX, %XXX, $XXX...
     tex = ["+","@","/",">",";","^","%","$","＾","サテラ:","サテラ:","サテラ：","サテラ："]
