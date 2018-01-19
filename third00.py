@@ -916,7 +916,7 @@ def bot(op):
 		
  
                 
-             elif "Admin add @" in msg.text:
+            elif "Admin add @" in msg.text:
               if msg.from_ in Creator:
                 print "[Command]Admin add executing"
                 _name = msg.text.replace("Admin add @","")
