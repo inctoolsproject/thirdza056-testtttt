@@ -14,41 +14,41 @@ cl = LINETCR.LINE()
 cl.login(token="ใส่โทเคน")
 cl.loginResult()
 
-#ki1 = LINETCR.LINE()
-#ki1.login(token="EqWUCQVhPZFFZ6GrDBo0.OkriOxgFfKMW2FOdq9cL4a.7xJAO5R+MOIqHomz35m5csPkRoN3ExblHe2/12E3xcY=")
-#ki1.loginResult()
+ki1 = LINETCR.LINE()
+ki1.login(token="EqWUCQVhPZFFZ6GrDBo0.OkriOxgFfKMW2FOdq9cL4a.7xJAO5R+MOIqHomz35m5csPkRoN3ExblHe2/12E3xcY=")
+ki1.loginResult()
 
-#ki2 = LINETCR.LINE()
-#ki2.login(token="Eoanj57G8zVmnx1Lbcq0.+ZViS46tqNx/xW3+/xvqWa.7OEC6oc00qyDxg4oyNPkxUPR6cp4NQtisWXcXsisb04=")
-#ki2.loginResult()
+ki2 = LINETCR.LINE()
+ki2.login(token="Eoanj57G8zVmnx1Lbcq0.+ZViS46tqNx/xW3+/xvqWa.7OEC6oc00qyDxg4oyNPkxUPR6cp4NQtisWXcXsisb04=")
+ki2.loginResult()
 
-#ki3 = LINETCR.LINE()
-#ki3.login(token="EoTaHjbFSm5Q4uSw9nD8.TDGC/4U6kG8mrZHlHb4Xsa.5GnU4dc+9495v9xtFbXwBQbj8Mkh1Tf9eo/QyyHDPQA=")
-#ki3.loginResult()
+ki3 = LINETCR.LINE()
+ki3.login(token="EoTaHjbFSm5Q4uSw9nD8.TDGC/4U6kG8mrZHlHb4Xsa.5GnU4dc+9495v9xtFbXwBQbj8Mkh1Tf9eo/QyyHDPQA=")
+ki3.loginResult()
 
-#ki4 = LINETCR.LINE()
-#ki4.login(token="Eov6BKJXHfTv7j3CRHU5.aOeodX8FNJewWK5vf5P9fq.LnPl7aQDvd/bjbou+L2w1lvh/ioHsSUQYDfd/swfrZA=")
-#ki4.loginResult()
+ki4 = LINETCR.LINE()
+ki4.login(token="Eov6BKJXHfTv7j3CRHU5.aOeodX8FNJewWK5vf5P9fq.LnPl7aQDvd/bjbou+L2w1lvh/ioHsSUQYDfd/swfrZA=")
+ki4.loginResult()
 
-#ki5 = LINETCR.LINE()
-#ki5.login(token="EoD4mpmx79uzg09jbML1.efbujRuyG0q0ahbGcSYguq.DxbEGtvtTXAKEePt4fLUXH8jRjh7VG+5CUM0fAPAWAw=")
-#ki5.loginResult()
+ki5 = LINETCR.LINE()
+ki5.login(token="EoD4mpmx79uzg09jbML1.efbujRuyG0q0ahbGcSYguq.DxbEGtvtTXAKEePt4fLUXH8jRjh7VG+5CUM0fAPAWAw=")
+ki5.loginResult()
 
-#ki6 = LINETCR.LINE()
-#ki6.login(token="EoxwAg1N3lSmzFfZ0RX3.7f74kMOPgNIBSGT6+sawqW.zNL95ZZiregvvKd9pBWeCNQEvFK8pQVNb3TtBibAGEQ=")
-#ki6.loginResult()
+ki6 = LINETCR.LINE()
+ki6.login(token="EoxwAg1N3lSmzFfZ0RX3.7f74kMOPgNIBSGT6+sawqW.zNL95ZZiregvvKd9pBWeCNQEvFK8pQVNb3TtBibAGEQ=")
+ki6.loginResult()
 
-#ki7 = LINETCR.LINE()
-#ki7.login(token="Eokv7n7uoq4tsmQWREkf.PqUHiCpv2pBtz8Q0TEIqxW.AgPVyVnLoG7UHyzHyQX/ICM4cQapp9zRSY2uGr95du8=")
-#ki7.loginResult()
+ki7 = LINETCR.LINE()
+ki7.login(token="Eokv7n7uoq4tsmQWREkf.PqUHiCpv2pBtz8Q0TEIqxW.AgPVyVnLoG7UHyzHyQX/ICM4cQapp9zRSY2uGr95du8=")
+ki7.loginResult()
 
-#ki8 = LINETCR.LINE()
-#ki8.login(token="EoxWhUuk78IXHPBgYgbe.nMGqEcQDlP6dAl/gilNatG.90ay26S0VfNPti2ZmKGDVlu6FJ3ivCsIUSVDa6kmBEA=")
-#ki8.loginResult()
+ki8 = LINETCR.LINE()
+ki8.login(token="EoxWhUuk78IXHPBgYgbe.nMGqEcQDlP6dAl/gilNatG.90ay26S0VfNPti2ZmKGDVlu6FJ3ivCsIUSVDa6kmBEA=")
+ki8.loginResult()
 
-#ki9 = LINETCR.LINE()
-#ki9.login(token="EoluRsFVIBC6WfNecGja.XeTFQ55WYwSmXh4n0wOhcG.Zl36VJU8INIcSFmmXsMSXyUZW+gbjmQTgE6LxBQpCa4=")
-#ki9.loginResult()
+ki9 = LINETCR.LINE()
+ki9.login(token="EoluRsFVIBC6WfNecGja.XeTFQ55WYwSmXh4n0wOhcG.Zl36VJU8INIcSFmmXsMSXyUZW+gbjmQTgE6LxBQpCa4=")
+ki9.loginResult()
 
 #ki10 = LINETCR.LINE()
 #ki10.login(token="EoQW0fWuribDJDJRBTCa.XIBZSHhwVEi2szZJfJwo/G.0Vu2NC0IMsGRgSttKg/vSJz9ngGwx/lGkaqdUqt1GgM=")
@@ -304,17 +304,17 @@ helpMessage4 ="""
 ║🇹🇭  ปิดแทค➠คำสั่งปิดแทค
 ╚══════════════════════
 """
-KAC=[cl]
+KAC=[cl,ki,ki2,ki3,ki4,ki5,ki6,ki7,ki8,ki9]
 mid = cl.getProfile().mid
-#Amid1 = ki1.getProfile().mid
-#Amid2 = ki2.getProfile().mid
-#Amid3 = ki3.getProfile().mid
-#Amid4 = ki4.getProfile().mid
-#Amid5 = ki5.getProfile().mid
-#Amid6 = ki6.getProfile().mid
-#Amid7 = ki7.getProfile().mid
-#Amid8 = ki8.getProfile().mid
-#Amid9 = ki9.getProfile().mid
+Amid1 = ki1.getProfile().mid
+Amid2 = ki2.getProfile().mid
+Amid3 = ki3.getProfile().mid
+Amid4 = ki4.getProfile().mid
+Amid5 = ki5.getProfile().mid
+Amid6 = ki6.getProfile().mid
+Amid7 = ki7.getProfile().mid
+Amid8 = ki8.getProfile().mid
+Amid9 = ki9.getProfile().mid
 #Amid10 = ki10.getProfile().mid
 
 protectname = []
@@ -429,59 +429,59 @@ mybackup.statusMessage = contact.statusMessage
 mybackup.pictureStatus = contact.pictureStatus
 
 
-#contact = ki1.getProfile()
-#backup = ki1.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = ki1.getProfile()
+backup = ki1.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
-#contact = ki2.getProfile()
-#backup = ki2.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = ki2.getProfile()
+backup = ki2.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
-#contact = ki3.getProfile()
-#backup = ki3.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = ki3.getProfile()
+backup = ki3.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
-#contact = ki4.getProfile()
-#backup = ki4.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = ki4.getProfile()
+backup = ki4.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
-#contact = ki5.getProfile()
-#backup = ki5.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = ki5.getProfile()
+backup = ki5.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
-#contact = ki6.getProfile()
-#backup = ki6.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = ki6.getProfile()
+backup = ki6.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
-#contact = ki7.getProfile()
-#backup = ki7.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = ki7.getProfile()
+backup = ki7.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
-#contact = ki8.getProfile()
-#backup = ki8.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = ki8.getProfile()
+backup = ki8.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
-#contact = ki9.getProfile()
-#backup = ki9.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = ki9.getProfile()
+backup = ki9.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
 #contact = ki10.getProfile()
 #backup = ki10.getProfile()
